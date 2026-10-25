@@ -21,19 +21,30 @@ The legacy Zhou reference is not verified: its DOI resolves to Jeon and Kwak's
 *Pricing variable annuity with surrender guarantee*, JCAM 393, 113508 (2021).
 The new manuscript omits this unsupported attribution.
 
+## Repository-level interpretation
+
+The `option-pricing-DGM` repository makes the intended system clear: direct DGM
+inference for batched surfaces plus a DGM-guided MC estimator. Its prototype has
+a valid stochastic-integral path, but also exposes the invalid terminal-value CV,
+an ATM-only FBSDE wrapper, incomplete cost accounting, and unsupported speed/SOTA
+claims. See `OPTION_PRICING_DGM_AUDIT.md` for exact locations.
+
 ## Defensible contribution now
 
-An auditable reconstruction, explicit failure counterexample, independently
-piloted composite controls, correct sampling-unit uncertainty, transparent
-compute accounting, and a reproducible negative/positive screening benchmark.
-Neither martingale unbiasedness nor linear-control orthogonalization is claimed
-as a new theorem. Combining established components is not by itself A/A* novelty.
+An auditable DGM-MC deployment protocol: (i) a batched DGM surrogate, (ii) a
+predictable neural martingale control, and (iii) an independent-pilot cost-aware
+selector with a classical fallback. The present repository adds the selector
+contract and verification, but the selector's superiority has not yet been
+measured in a full matched-cost study. Neither martingale unbiasedness nor linear
+control orthogonalization is claimed as a new theorem. Combining established
+components is not by itself A/A* novelty.
 
 ## Plausible next research contribution (not a completed result)
 
-Develop a cost-aware residual-control learner that targets only variance left
-after strong classical controls, with independent selection and an excess-risk
-bound accounting for training, pilot fitting, and grid resolution. Compare
-direct integrand learning to PDE-gradient learning and analytic controls across
-multiple model/payoff families. The present composite-control experiment is a
-testable starting point, not proof of this broader method's superiority.
+The plausible paper contribution is a cost-aware residual-control learner that
+targets only variance left after strong classical controls, with independent
+selection and an excess-risk bound accounting for training, pilot fitting, and
+grid resolution. Compare direct integrand learning to PDE-gradient learning and
+analytic controls across multiple model/payoff families, including a real
+time-refined FBSDE baseline. The present selector is a testable starting point,
+not proof of this broader method's superiority.

@@ -9,31 +9,34 @@
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\Var}{\operatorname{Var}}
 \newcommand{\Cov}{\operatorname{Cov}}
-\title{Auditable Neural Martingale Control Variates\\for Basket Option Pricing}
+\title{DGM--MC: Cost-Aware Hybrid Neural--Monte Carlo\\for Basket Option Pricing}
 \author{Siddhartha G.\\\small Independent research draft}
 \date{October 26, 2026}
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Small Monte Carlo standard errors do not establish accurate option prices when
-a learned control variate is centered at an incorrect expectation. We reconstruct
-a neural PDE pricing project whose saved one-dimensional hybrid estimate is
-8.95\% below its analytical reference despite a reported standard error of
-$4.32\times10^{-7}$. We identify the centering failure, separate inherited
-artifacts from new measurements, and implement predictable neural martingale
-controls with independent pilot fitting and explicit reference uncertainty.
-The resulting study compares smooth Deep Galerkin and multilayer-perceptron
-surrogates with plain Monte Carlo, antithetic sampling, geometric-basket controls,
-and scrambled Sobol integration. Analytical calibration isolates the effects of
-control resolution and inaccurate gradients from approximation bias. Our
-contribution is an auditable implementation and evaluation protocol, not a new
-martingale identity or an assertion of state-of-the-art performance. The
-finite-budget results include 18 freshly trained models and 1,872 pricing
-estimates. At the central scenarios, DGM controls reduce estimated standard
-errors by approximately 4.5--5.4 times relative to plain Monte Carlo, but cheap
-geometric controls are substantially faster. The study therefore supports
-estimator validity, not a claim of practical neural superiority.
+We propose DGM--MC, a cost-aware hybrid deployment protocol for high-dimensional
+European option pricing. A Deep Galerkin Method (DGM) network has two distinct
+roles: it is an amortized batched surrogate for prices and Greeks, and its
+left-endpoint spatial gradient defines a predictable martingale control for a
+fresh Monte Carlo estimator. The estimator preserves the target expectation
+under explicit conditional-integrability assumptions, while an independent pilot
+selects between plain Monte Carlo, classical controls, neural controls and their
+combination. A classical branch is mandatory when the neural control does not
+justify its training and pilot cost.
+
+The motivation is also a correction of a common failure mode. The inherited
+terminal-value control reported a one-dimensional price 8.95\% below the exact
+Black--Scholes value despite a reported standard error of
+$4.32\times10^{-7}$. We identify this invalid centering, audit the original
+artifacts, and rebuild the estimator with explicit path independence and cost
+accounting. In a finite CPU screening study with 18 fresh models and 1,872
+pricing estimates, neural controls reduce estimated standard errors by roughly
+4.5--5.4 times relative to plain Monte Carlo at central states. Cheap geometric
+controls are substantially faster, and direct surrogate Greeks remain imperfect.
+The results support DGM--MC as a testable hybrid protocol, not yet as a proven
+state-of-the-art, industry-standard, or uniformly faster method.
 \end{abstract}
 
 \section{Introduction}
@@ -74,8 +77,10 @@ controls, including high-dimensional experiments. Hinds and Tretyakov
 \citep{hinds2023} study neural variance reduction for Brownian and
 L\'evy-driven SDEs, including direct variance-based learning. Consequently,
 reframing a neural PDE solution as a control variate is not itself new.
-Our narrower contribution is a reproducible analysis of failure modes and
-the incremental value of neural controls after a cheap analytic control.
+Our narrower contribution is a reproducible, cost-aware deployment protocol that
+combines a batched DGM surface, a predictable neural control and an independent
+fallback decision after a cheap analytic control. Its superiority is an empirical
+hypothesis, not an assumed consequence of the construction.
 Neither the classical projection formulas below nor conditional unbiasedness
 is asserted as a new theorem.
 
@@ -209,6 +214,29 @@ collocation uses uniform time and Gaussian log prices with standard deviation
 All Hessian contractions are deterministic and exact under automatic
 differentiation. This is a finite-budget training baseline, not a claim of
 global PDE convergence. Nonfinite losses and estimator records fail explicitly.
+
+\subsection{DGM--MC deployment protocol}
+\label{sec:deployment}
+The proposed system has three modes. For repeated queries under a fixed model,
+the trained DGM provides a batched surrogate whose cold-start training cost is
+amortized over the query count. For a price requiring an MC correctness layer,
+the predictable control in \eqref{eq:integral} is combined with fresh payoff
+paths. Finally, an independent pilot evaluates a deployment cost model before
+the final run. For a candidate control with pilot variance $\widehat{s}^2$,
+target standard error $\varepsilon$, safety factor $\kappa\geq1$, and measured
+evaluation cost $c_{\mathrm{eval}}$ per path, the predicted total cost is
+\begin{equation}
+ \widehat{C}=C_{\mathrm{pilot}}+
+ \frac{C_{\mathrm{train}}}{Q}+
+ c_{\mathrm{eval}}\left\lceil\frac{\kappa^2\widehat{s}^2}{\varepsilon^2}\right\rceil,
+\end{equation}
+where $Q$ is the expected number of future queries. The selector chooses the
+lowest-cost candidate among plain MC, classical controls, neural controls and
+the combined control. The neural candidate is rejected when its predicted cost
+does not beat the best classical candidate. This rule is a transparent
+engineering contract, not a finite-sample optimality theorem; the screening
+study reports its ingredients but does not claim that the selector has already
+been validated as a production policy.
 
 \section{Experimental protocol}
 \label{sec:protocol}

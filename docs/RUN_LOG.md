@@ -23,6 +23,9 @@
   six models (1,818 raw price/Greek records). No new fitting or model selection.
 - Expanded regression suite: 39 tests passed, including safe checkpoint loading
   and rejection of hash-inconsistent or incomplete artifacts.
+- DGM-MC positioning pass: inspected the public `option-pricing-DGM` repository,
+  added a remote-prototype audit, and implemented/tested the cost-aware selector
+  with classical fallback. Full suite now reports 42 passed tests.
 - New 5D pricing CLI exercised successfully with heterogeneous spots and an
   independent pilot. This is an execution check, not a separate headline result.
 - LaTeX first encountered missing `natbib` and a malformed host PATH entry.
@@ -30,3 +33,6 @@
   command sanitizes only its child-process PATH and disables package installation.
   No global configuration was changed. The PDF builds with no undefined
   references or overfull boxes; the nine-page output was visually inspected.
+- Paper title and abstract now present DGM-MC as the proposed cost-aware hybrid
+  protocol. They explicitly distinguish the proposed method from established
+  neural martingale-control prior art and do not claim FBSDE/MC superiority.

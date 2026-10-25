@@ -1,20 +1,30 @@
-# DGM–MC: an audited research reconstruction
+# DGM–MC: cost-aware hybrid neural–Monte Carlo option pricing
 
 This is an isolated, self-contained reconstruction of the sibling
 `dgm_option_pricing/` and `neurips_submission/` research projects. Neither
 original folder is modified. It uses Python/PyTorch, but deliberately does not
 import legacy modules or reuse their checkpoints or numerical claims.
 
+The intended method is **DGM-MC**: DGM is used both as an amortized batched
+pricing/Greek surrogate and as a predictable martingale control inside a fresh
+Monte Carlo estimator. An independent pilot can select plain MC, classical
+controls, neural controls or a combined control using an explicit cost model.
+The neural branch is optional; classical MC is the correctness fallback.
+
 **Status:** research artifact, not an industry standard and not a demonstrated
 state-of-the-art method. The legacy terminal-value control variate is biased;
 its tiny reported standard error is not evidence of accurate pricing.
-See `docs/AUDIT.md` before using any old results.
+See `docs/DGM_MC_POSITIONING.md`, `docs/OPTION_PRICING_DGM_AUDIT.md` and
+`docs/AUDIT.md` before using any old results.
 
 The corrected method subtracts a predictable, left-endpoint stochastic integral
 from an exactly simulated discounted payoff. A frozen approximate neural model
 can change variance, but does not change the estimator's expectation. Coefficients
 are fitted on an independent pilot, never on final evaluation paths. Geometric
 basket controls and scrambled Sobol provide strong non-neural comparators.
+The repository does not claim that DGM-MC is already better than FBSDE or plain
+MC at equal total cost; the matched-cost experiment needed for that claim is
+specified explicitly.
 
 ## Delivered research package
 
@@ -27,6 +37,8 @@ basket controls and scrambled Sobol provide strong non-neural comparators.
 | Learned-control coverage and Greeks | `results/diagnostics/` |
 | Original-work audit | `docs/AUDIT.md`, `audit/legacy_checks.json` |
 | Protocol and publication gaps | `docs/PROTOCOL.md`, `docs/SUBMISSION_READINESS.md` |
+| DGM-MC claim set and deployment design | `docs/DGM_MC_POSITIONING.md` |
+| Remote prototype audit | `docs/OPTION_PRICING_DGM_AUDIT.md` |
 
 **Actually executed:** 18 fresh models (DGM/MLP, d=1/5/10, three seeds), 1,872
 pricing estimates, 840 oracle-calibration estimates, 960 learned-control coverage
@@ -39,6 +51,11 @@ not evidence of converged or production-ready models.
 by roughly 4.5–5.4x versus plain MC, not the inherited >1000x claim. The cheap
 geometric control is substantially faster than the neural variants. Near-expiry
 Greek errors and some negative surrogate outputs remain. All are disclosed.
+
+The cost-aware selector is implemented in `dgm_mc/selection.py` and tested, but
+has not been used to create a new headline experiment. It is the proposed
+method-level extension: a neural control must earn its training and pilot cost,
+or the system falls back to a classical control.
 
 ## Reproduce
 
@@ -101,7 +118,7 @@ original research files unchanged. No other command requires those folders.
 ## Layout
 
 - `dgm_mc/`: validated market model, smooth DGM/MLP, exact PDE residual,
-  Monte Carlo estimators, benchmark and reporting commands.
+  Monte Carlo estimators, cost-aware DGM-MC selection, benchmark and reporting commands.
 - `tests/`: mathematical and statistical regression checks.
 - `configs/`: small smoke run and declared CPU study.
 - `results/`: newly measured records, checkpoints, reference uncertainty,

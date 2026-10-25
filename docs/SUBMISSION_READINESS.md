@@ -20,12 +20,16 @@ are assumed.
 - Explicit reference uncertainty, timing, manifests and generated LaTeX tables.
 - Learned-control 1D calibration: 80 replications per checkpoint, six checkpoints,
   fixed/pilot coefficients (960 estimates); 1,818 price/Delta/Gamma grid records.
+- Cost-aware deployment selector implemented and unit-tested, with an explicit
+  classical fallback; it has not yet been promoted to a headline empirical claim.
 
 ## Gates not yet met
 
-1. **Novelty:** implement a genuinely differentiated contribution beyond DGM
-   plus an already-known martingale control. Compare directly with Vidales et al.
-   and Hinds/Tretyakov using their published algorithms and matched tasks.
+1. **Novelty:** the defensible candidate is the complete DGM-MC deployment
+   protocol—batched surrogate + predictable control + pilot cost selector +
+   classical fallback—not the generic existence of neural martingale controls.
+   Compare directly with Vidales et al. and Hinds/Tretyakov using their published
+   algorithms and matched tasks.
 2. **Training convergence:** the 300-step runs are deliberately short screening
    runs, not converged competitors. Predeclare a budget sweep, independent
    validation and hyperparameter selection before a larger held-out test.
@@ -38,7 +42,8 @@ are assumed.
 5. **Efficiency:** equal-wall-time and time-to-RMSE curves across path budgets,
    strong RQMC constructions, geometric/multi-asset controls, direct learned
    integrands, and Deep BSDE with time-discretization refinement. Charge training,
-   data generation and pilot costs. Report amortization break-even queries.
+   data generation, pilot and training costs. Report amortization break-even
+   queries and evaluate the cost-aware selector itself.
 6. **High dimensions:** neural d=25/50/100 runs with multiple seeds and memory
    measurements. Classical-only results do not fill this gap.
 7. **Risk outputs:** extend the delivered 1D analytical price/Delta/Gamma checks
@@ -54,9 +59,9 @@ are assumed.
 
 ## Recommended scientific direction
 
-Test a residualized neural martingale trained on the component unexplained by a
-cheap analytic control, with a pilot-only cost-aware decision to retain or reject
-the neural control. A future finite-sample selection theorem and robust matched-
-cost gains could constitute a substantive contribution. Neither is claimed here.
+Test the implemented residualized neural martingale and cost-aware selector on the
+component unexplained by a cheap analytic control. Add a finite-sample selection
+bound and robust matched-cost gains against a correctly implemented, time-refined
+FBSDE. That could constitute a substantive contribution. Neither is claimed here.
 If classical methods dominate, preserve that finding rather than weakening
 baselines or relabelling oracle performance as a neural result.

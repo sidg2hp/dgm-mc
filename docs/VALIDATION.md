@@ -5,7 +5,7 @@ All commands below were executed in the isolated new project on 2026-10-26
 
 | Check | Actual result |
 |---|---|
-| `python -B -m pytest -q` | 39 passed; final full run approximately 24 seconds |
+| `python -B -m pytest -q` | 42 passed; final full run approximately 27 seconds |
 | Smoke benchmark (`configs/smoke.json`) | Complete: one model and 22 estimate records |
 | Verified CPU benchmark (`configs/cpu_verified.json`) | Complete: 18 models, 1,872 pricing estimates, 840 oracle-calibration estimates |
 | Independent 1D diagnostics, 80 repetitions | Complete: 960 learned-control estimates and 1,818 price/Greek records |
@@ -15,6 +15,7 @@ All commands below were executed in the isolated new project on 2026-10-26
 | PDF inspection | Nine-page manuscript inspected, including tables and all three figures |
 | `python -B -m dgm_mc.verify` | Main records, all checkpoints, diagnostics, reports and paper hashes verified |
 | `python -B -m dgm_mc.audit --legacy-parent .. --verify` | 299 original research source/result files unchanged |
+| Public `option-pricing-DGM` audit | Hybrid path, invalid terminal CV, path cap, ATM-only FBSDE, and extrapolated timing claims reviewed; see `docs/OPTION_PRICING_DGM_AUDIT.md` |
 | Pricing CLI with five heterogeneous spots | Executed successfully with restricted checkpoint loading and independent pilot |
 
 The earlier larger run timed out and is excluded, as documented in `RUN_LOG.md`.
