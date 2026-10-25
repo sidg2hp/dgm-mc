@@ -1,0 +1,41 @@
+{
+  "label": "legacy_artifact_checks_not_new_experiments",
+  "exact_1d": 0.10450583572185577,
+  "legacy_hybrid_price": 0.09515635245945454,
+  "legacy_hybrid_se": 4.320882533711908e-07,
+  "relative_bias": -0.08946374331941667,
+  "error_in_reported_se": -21637.901955111567,
+  "comparisons": [
+    {
+      "d": 1,
+      "dgm_mre": 0.011547356434864582,
+      "dgm_relative_l2": 0.012323534929307546,
+      "zhou_mre": 0.005084711126423265,
+      "dgm_wins": 1
+    },
+    {
+      "d": 2,
+      "dgm_mre": 0.04855700940907534,
+      "dgm_relative_l2": 0.015499221207093159,
+      "zhou_mre": 0.024509804416758187,
+      "dgm_wins": 2
+    },
+    {
+      "d": 3,
+      "dgm_mre": 0.060515283647934626,
+      "dgm_relative_l2": 0.017326019219564323,
+      "zhou_mre": 0.024341617503997166,
+      "dgm_wins": 1
+    },
+    {
+      "d": 5,
+      "dgm_mre": 0.024035699188836305,
+      "dgm_relative_l2": 0.011368949151933254,
+      "zhou_mre": 0.01408996357172421,
+      "dgm_wins": 2
+    }
+  ],
+  "dgm_wins": 6,
+  "comparisons_count": 20,
+  "atm_wins": 0
+}

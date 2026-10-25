@@ -1,0 +1,1497 @@
+[
+  {
+    "path": "dgm_option_pricing/baselines/__init__.py",
+    "bytes": 75,
+    "sha256": "ded14eed84ac90eb76964c416f055e93a48886a6eeaa0687088d255a50a6932c"
+  },
+  {
+    "path": "dgm_option_pricing/baselines/fbsde_pricer.py",
+    "bytes": 2174,
+    "sha256": "86c93e0ae7ad099c01ee19c6501c40d78b5038507907151dc205d490d97d1fa7"
+  },
+  {
+    "path": "dgm_option_pricing/baselines/zhou_et_al.py",
+    "bytes": 6133,
+    "sha256": "2f83e7699b8d7b2850c0f11b168042d4127018abe9af9ab541650d4c3a18a3f0"
+  },
+  {
+    "path": "dgm_option_pricing/configs/__init__.py",
+    "bytes": 253,
+    "sha256": "8fb73112ba7b7a32b4daeb82fff99f0c5f65b428c8fc7a6dee6e2a44e21d9d81"
+  },
+  {
+    "path": "dgm_option_pricing/configs/base_config.py",
+    "bytes": 8758,
+    "sha256": "066d517170d3bfa137c83053ed0ec62ad2b1ab8b2cb8bde8ea917ee35a58e01c"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/ablation_activation.yaml",
+    "bytes": 849,
+    "sha256": "f021faa0606817a46f2025a6f6d1f569db42d474a752dc28998003513c625d20"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/ablation_architecture.yaml",
+    "bytes": 844,
+    "sha256": "5471d053f5f461048c52622a57f2fb9a956f073033261cd28aabac14a03dd574"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/ablation_loss_weights.yaml",
+    "bytes": 871,
+    "sha256": "ee4ade983ce7fdb92685a00bee505ff36a40c054360d03c203ee6552c54aec96"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/ablation_sampling.yaml",
+    "bytes": 837,
+    "sha256": "4d3b8576a3bf86484c35e7d62aef4040e2a089c8ad8446f4000a42e93743a4a3"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/basket_d10.yaml",
+    "bytes": 1455,
+    "sha256": "e6f1e9da5d78b1b7c7b7b48a06f61c09a37af113a6c854d501997b0dcdc114b3"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/basket_d2.yaml",
+    "bytes": 817,
+    "sha256": "603ee90e07b1bc26524c44ccbd0fdee98ef173bf920d2c5cf8614e0d172098b5"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/basket_d3.yaml",
+    "bytes": 871,
+    "sha256": "9284c3c3296dba242e4ff34622239ea6c12a9c5544d7db544ed872e34acb3cf7"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/basket_d5.yaml",
+    "bytes": 987,
+    "sha256": "adb29f34147c6b13ec0a22e65e7cc0027f1c4a688d7a2d1c36a5bee3de441203"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/basket_d7.yaml",
+    "bytes": 1143,
+    "sha256": "79054bdeb4838014a686339da0aab3f1d9b12f7970c3ff3311e370b5b83a5cf8"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/validate_1d.yaml",
+    "bytes": 793,
+    "sha256": "e7fa2186ca0730ac611872008fe8ef4acf215862b17ef44a1302c8c118e91f82"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/validate_2d_geometric.yaml",
+    "bytes": 845,
+    "sha256": "1799829df39a05e97f1879f2bb4199b8b82d2692fea454b6a4db0c9d052d6428"
+  },
+  {
+    "path": "dgm_option_pricing/configs/experiments/zhou_replication.yaml",
+    "bytes": 835,
+    "sha256": "de1ab6cbb738415505372b532da8fc8fbbc47e5f3b74a7944ddf99fd30c01529"
+  },
+  {
+    "path": "dgm_option_pricing/docs/design.md",
+    "bytes": 20450,
+    "sha256": "9201e9e5d6c1b70e9bdfaf72aedbdbe0b5d5c784b53476ac12273655cf7c9720"
+  },
+  {
+    "path": "dgm_option_pricing/evaluation/__init__.py",
+    "bytes": 72,
+    "sha256": "d3f661d12e509da8a5d64763edb8dcaab1a95a8adc166cee5c41c52a25082a8f"
+  },
+  {
+    "path": "dgm_option_pricing/evaluation/diagnostics.py",
+    "bytes": 1882,
+    "sha256": "9aef533a025dcdbdc4ce3528049d5375655dfecd0a81eba82e1bbd996c2f2d9b"
+  },
+  {
+    "path": "dgm_option_pricing/evaluation/metrics.py",
+    "bytes": 1685,
+    "sha256": "68dde89c0149f89d9a8efae18072b380eae95ea58765523dd0300bd9792fed67"
+  },
+  {
+    "path": "dgm_option_pricing/evaluation/monte_carlo.py",
+    "bytes": 11324,
+    "sha256": "9400d538fffffc3764b6e4e29d57ff5747ab7b2ebcc74d73e04366c7fa9313bd"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/__init__.py",
+    "bytes": 79,
+    "sha256": "9beec23380bbb7fc3cc5850c3c6a6aa64c22ac00c80e347c2cb9454cfbc85359"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/extract_greeks.py",
+    "bytes": 7358,
+    "sha256": "f9c26f5c75e265e412b9feacfd6621d3f360c3ca6a4230277e9407ec20407add"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/generate_neurips_figures.py",
+    "bytes": 27761,
+    "sha256": "573926e683e6998d23d90dd73251c93cfeee0f54155284de534cb0e9483f24f4"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/generate_paper_figures.py",
+    "bytes": 10448,
+    "sha256": "67e1c468fda280939f5b76cded979f9436b34508a9e9f083f3aa6bbd69cc28cc"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/plot_analytical_1d.py",
+    "bytes": 3047,
+    "sha256": "b28622683a3137f5cb6dedd2522d989234508aa63292bfbca0615d3dfaea48b3"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_ablations.py",
+    "bytes": 7001,
+    "sha256": "7b5fdecc4ef88f60b03f52899f63b7f0fd3ed9abc96e8b3119c6a5a07f2cb710"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_comparison.py",
+    "bytes": 12794,
+    "sha256": "e1d9f393c0cfbe4d688c10dd44980d5a274a1500f5606027b726641b64635fd8"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_fbsde.py",
+    "bytes": 2381,
+    "sha256": "bd1ce2451a19954e2019fa77b6a8bb6a8f8fa45bbe4da12d56618d2b6c37f57e"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_greeks.py",
+    "bytes": 3095,
+    "sha256": "334739b8f824da960fbbbe6651aef291bf75086d75450dbf817fe62f68dedb60"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_hybrid_mc.py",
+    "bytes": 7227,
+    "sha256": "a4ce36f3fa22a70ba908fef53a89039f1a2db055e34ce12408a416d4f8fb5490"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_scaling.py",
+    "bytes": 8280,
+    "sha256": "1ab7ab508754de2f7be5268b82938008573ed46e9dd5d5b048e22135b1cf946c"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_time_analysis.py",
+    "bytes": 5956,
+    "sha256": "8101488f56aa6f3c0212b2c6ef10f58f19447992da2cff4eedbecd195f69fe14"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_validation.py",
+    "bytes": 8126,
+    "sha256": "c219ca7d850be7a04a0777fdb4b567980eb491d73abcb2af756fcc0a5b75fa42"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/run_zhou_replication.py",
+    "bytes": 4917,
+    "sha256": "47388966eca7af850ef102604eb6b3ebb1666217777d9a81e95dc5774a11469b"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/update_hmc.py",
+    "bytes": 2693,
+    "sha256": "c70c32b829aeb1331ef1c0f42cfb5f1f7a58dc9c00e092a5bcf7cb5919b41900"
+  },
+  {
+    "path": "dgm_option_pricing/experiments/update_readme.py",
+    "bytes": 3590,
+    "sha256": "0bc03c7653bc386af9216b4922ca690bcd1524674c83da089af94781ac4f4bed"
+  },
+  {
+    "path": "dgm_option_pricing/losses/__init__.py",
+    "bytes": 78,
+    "sha256": "0b7f9b7f89245362640f5c831a67314a8926e5d417a08d1262456a15b462fa9f"
+  },
+  {
+    "path": "dgm_option_pricing/losses/boundary_loss.py",
+    "bytes": 1016,
+    "sha256": "4396265b9e59276c02c8517b87fa9945fe9192c8490cbb30e6378a806bd7bd3f"
+  },
+  {
+    "path": "dgm_option_pricing/losses/combined_loss.py",
+    "bytes": 2965,
+    "sha256": "2b4fb84b8afa6ef72101e936655ca2681a9d00660f157a2ac73b8dddbf3af1ec"
+  },
+  {
+    "path": "dgm_option_pricing/losses/pde_loss.py",
+    "bytes": 1598,
+    "sha256": "18bc26accfe0af861173331daf6c1472c58f678f6f3fa74a722d83a1b319239b"
+  },
+  {
+    "path": "dgm_option_pricing/losses/terminal_loss.py",
+    "bytes": 1163,
+    "sha256": "35a5aedd0b3c34ba47c02f031bf2b1da50965066cf4ff727c16f6b69d41bf413"
+  },
+  {
+    "path": "dgm_option_pricing/models/__init__.py",
+    "bytes": 66,
+    "sha256": "030a759a60c2860f69481ca13de4a5d77af7954e269b6aac50fb4f1de9e9a24c"
+  },
+  {
+    "path": "dgm_option_pricing/models/dgm_layer.py",
+    "bytes": 3853,
+    "sha256": "0de8cacd1009b5c60f03cbe9eec3db1ebd0d07ff2ce2a195920509813504ff2e"
+  },
+  {
+    "path": "dgm_option_pricing/models/dgm_network.py",
+    "bytes": 7222,
+    "sha256": "f8207b4eff0f4e22326f4bc2ee0fa1bc91cc8ed94e6a44e8d476be1781578c08"
+  },
+  {
+    "path": "dgm_option_pricing/models/fbsde_network.py",
+    "bytes": 2231,
+    "sha256": "fd35d8b8b4932ab9827d98853e451f9d8aa6297550dcd654ba5be9528358cc0f"
+  },
+  {
+    "path": "dgm_option_pricing/models/mlp_network.py",
+    "bytes": 5720,
+    "sha256": "7c2ab0dea0c7f4586191a21aa70bbe51d73ddfd1dc063125a38f93461b4704ff"
+  },
+  {
+    "path": "dgm_option_pricing/models/model_factory.py",
+    "bytes": 1466,
+    "sha256": "6ef42844dc7d685076fe375c675786893d8a750a2a24d797c7177f5fa3615848"
+  },
+  {
+    "path": "dgm_option_pricing/paper/main.tex",
+    "bytes": 9907,
+    "sha256": "55d9d479e289e70ef4f58b8e35f3c4b1e55063b2a2eda94964775a4930334cad"
+  },
+  {
+    "path": "dgm_option_pricing/paper/paper.tex",
+    "bytes": 82443,
+    "sha256": "71c98986d82abf54901a9fdec00d62897c3ae56d1ce8adad72080a6c5504ad6d"
+  },
+  {
+    "path": "dgm_option_pricing/paper/references.bib",
+    "bytes": 490,
+    "sha256": "77846e6ef7fc5fd30ab5e9ca8d73e319e376be73904dace31351e7b127d8f4c4"
+  },
+  {
+    "path": "dgm_option_pricing/pde/__init__.py",
+    "bytes": 89,
+    "sha256": "12cf9b86f2d2e29d3754451a82dcb9941bf033cba299595628e9e6355bf3fb7e"
+  },
+  {
+    "path": "dgm_option_pricing/pde/analytical.py",
+    "bytes": 5970,
+    "sha256": "1df5cfa1b9a0ed095aeaef56ea96fe9f4a180cba04230ac47911ba5b50846e6e"
+  },
+  {
+    "path": "dgm_option_pricing/pde/boundary.py",
+    "bytes": 2389,
+    "sha256": "cac5f216b43b91bc6cdba47a304dba8ffa32d5660b41b3a92c29ae1e6d89022f"
+  },
+  {
+    "path": "dgm_option_pricing/pde/operator.py",
+    "bytes": 4997,
+    "sha256": "d35468551a9874351d90467ab8f54e933a010240cd891267366e3144f6a2f972"
+  },
+  {
+    "path": "dgm_option_pricing/pde/payoffs.py",
+    "bytes": 6909,
+    "sha256": "886460d85a448145c93fd3f98e0082f0927f2bda9473cbb5d7fd9727402d44d7"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/__init__.py",
+    "bytes": 72,
+    "sha256": "25132d3123d576d35177e8df4e58f92e1099e4023946e1d8239147d6491dce11"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/comparative_plots.py",
+    "bytes": 6435,
+    "sha256": "f081286dc0298c14b4d0ebd0cdf8fc0905e6b79ad4e8b1e9c0e1d5eab51069ad"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/convergence.py",
+    "bytes": 2328,
+    "sha256": "3f28ba256f52e8dfeb7174fa811ac0296edd2accbc7b0b992e1e04b4dcdc7a9e"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/error_maps.py",
+    "bytes": 2391,
+    "sha256": "0428705229f905beb2ea8afbe63221cfe933439597aef7d8f35d91fd0977896c"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/greeks_plots.py",
+    "bytes": 3881,
+    "sha256": "6f3d013d46bc50d1cc08f6d97d8d72eeda3af8a32d8f15cedcc41aa45e446f60"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/price_surface.py",
+    "bytes": 1896,
+    "sha256": "130d1a3440adec30216d03ef60f34138fbd122e3fc4cac7738160de5370859a9"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/scaling_plots.py",
+    "bytes": 2972,
+    "sha256": "d0d64ea62ca338b1c6482bab9efcaaf6113b67732da9f57768e07e03d5aa6f1e"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/style.py",
+    "bytes": 2463,
+    "sha256": "231c833096183194e21dc80545abf68f1998d35a4939962267028ae6c5f27e25"
+  },
+  {
+    "path": "dgm_option_pricing/plotting/zhou_figures.py",
+    "bytes": 14364,
+    "sha256": "34cc8e357616b2c551da318c677940b91d92aa589b4946315a2d2b8e490c42ff"
+  },
+  {
+    "path": "dgm_option_pricing/pyproject.toml",
+    "bytes": 819,
+    "sha256": "ff3c273297b64b861815d77f3eda1ae6f70e8c9be97e1c837ad857cf43792650"
+  },
+  {
+    "path": "dgm_option_pricing/README.md",
+    "bytes": 37515,
+    "sha256": "aee78ba345201fac01ec3030b0021599f49796fd3742f454ab972af296eca8c5"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/ablation_summary.json",
+    "bytes": 16698,
+    "sha256": "b28b86df5c5df1cf21d955e58cdc4506e38e780a0367a6ff19b08090e42e2bf5"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/adaptive_sampling/ablation_adaptive_sampling/config.json",
+    "bytes": 1444,
+    "sha256": "866d23613d67b3968f4d769795891ed562626684c41202719361a6f32a744bc6"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/adaptive_sampling/ablation_adaptive_sampling/config.yaml",
+    "bytes": 1066,
+    "sha256": "bb7e8ebdf64c3f7c4099dc6f781f45220f07ad3e68c273f89143d7b1dfd97eaf"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/adaptive_sampling/ablation_adaptive_sampling/results.json",
+    "bytes": 11058,
+    "sha256": "dcbf8706b5ece4a1c779e623613203b801b9a54ab33d5adf82b9a3b330c3904a"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/adaptive_sampling/ablation_result.json",
+    "bytes": 152,
+    "sha256": "f105b0f3697bb256b1f7cd54c4e0ad6ca7b3db6f057970021f9447d6efe1b9c3"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/risk_neutral_sampling/ablation_result.json",
+    "bytes": 156,
+    "sha256": "4127e3b8e9841470ebd93c1d913469a0f3716590650458dded0707ca9918d4a3"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/risk_neutral_sampling/ablation_risk_neutral_sampling/config.json",
+    "bytes": 1456,
+    "sha256": "f08e6bb758a913295264e1df1ba9329c05c5e8a58cff89251a2ca0d973145f9f"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/risk_neutral_sampling/ablation_risk_neutral_sampling/config.yaml",
+    "bytes": 1078,
+    "sha256": "ef86eb21e9cdf01e5aa5cdf8b6ce4dc0178bbed9d94cc29f9e1fbdbe8d74b8d9"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/risk_neutral_sampling/ablation_risk_neutral_sampling/results.json",
+    "bytes": 11063,
+    "sha256": "45882840e7cb25b95bcd120a3fa2a58ef727b9a3d61396306e292c6018a45380"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/soft_constraint/ablation_result.json",
+    "bytes": 151,
+    "sha256": "e0c3ba60617ef68009fa14faa4a9254440027f961d31b2f508cb5c95cb4d5aab"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/soft_constraint/ablation_soft_constraint/config.json",
+    "bytes": 1445,
+    "sha256": "2ab09f8fce629827237d62e57c59f041e393ae10bb93e54c4e850bff7ac82b09"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/soft_constraint/ablation_soft_constraint/config.yaml",
+    "bytes": 1067,
+    "sha256": "cdc553051cab851de9d4f1f0bfb7d85c8394f5a48b1421d07855352148fc8de3"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/soft_constraint/ablation_soft_constraint/results.json",
+    "bytes": 12885,
+    "sha256": "2ab473463988ad48e36f5a069eee34592d8b3dd40bbd9aeef6af9c62bf3b5090"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/uniform_sampling/ablation_result.json",
+    "bytes": 152,
+    "sha256": "085442130e0e157dd310093ade18e4c9d7ad276da57a778476d49820ac71ddd6"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/uniform_sampling/ablation_uniform_sampling/config.json",
+    "bytes": 1441,
+    "sha256": "7301639443e6209d92a4c6d649f3b3949c0d302113c1ba9c1065405204044ea1"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/uniform_sampling/ablation_uniform_sampling/config.yaml",
+    "bytes": 1063,
+    "sha256": "40336a6928b888052f166c063006039538ef314beae06dfa3f8ed28b440d20d3"
+  },
+  {
+    "path": "dgm_option_pricing/results/ablations/uniform_sampling/ablation_uniform_sampling/results.json",
+    "bytes": 11012,
+    "sha256": "ee9c2e8e6e3b131705d4cbb6e988b8a4f46aa41d9fafbdb2307df3ba1b4dacb3"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_1/comparison_dgm_d1/config.json",
+    "bytes": 1353,
+    "sha256": "e5e15d9d1eca3a20820709ed9b99747d1b0277e9009734bca1e3fb7337b5c7af"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_1/comparison_dgm_d1/config.yaml",
+    "bytes": 1008,
+    "sha256": "5210a860ccf6249452b115aa04f6d37cf7b168ceffb61774c96ebe3aea3d69f1"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_1/comparison_dgm_d1/results.json",
+    "bytes": 11081,
+    "sha256": "9d4f6dd5e0b5248a264c6dd97d8a06030120f6f470341d26fc84e119b3521eb4"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_1/comparison_results.json",
+    "bytes": 807,
+    "sha256": "18ed9f3ce838776f2ac63f893177217700b77f7d9a5dc27436a97df6dff69fc7"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_2/comparison_dgm_d2/config.json",
+    "bytes": 1437,
+    "sha256": "6cbc921718e67a34b6db9fc91e908f09efcec73266d187896d712defec44cf36"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_2/comparison_dgm_d2/config.yaml",
+    "bytes": 1059,
+    "sha256": "ec8a6d3ac76104f03c83d1fbd23076a47ebc232bd362d1862cc6c2bfb6caddb1"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_2/comparison_dgm_d2/results.json",
+    "bytes": 11046,
+    "sha256": "3cf1c111695bcc2a89cf45696313880960af329023724b0390cbcfe2a38ceaec"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_2/comparison_results.json",
+    "bytes": 806,
+    "sha256": "716c2f05e4fb250505e70bd7d0519f8afdbda18006bde2a732863db5628ab1e1"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_3/comparison_dgm_d3/config.json",
+    "bytes": 1549,
+    "sha256": "d7cbb4dc3f916f1d601acfe1ba6de17c4b73b06343cfae0df2c0c5a563f0479c"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_3/comparison_dgm_d3/config.yaml",
+    "bytes": 1132,
+    "sha256": "dee0959b55303868e71ea7871a7a5f6d4c1e465e50a40cce7adf5d76358d76b9"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_3/comparison_dgm_d3/results.json",
+    "bytes": 11073,
+    "sha256": "a565615b676b1e474c2cb4f6e3ce9b6738ba69d6d97aa589fa04b37f129e683c"
+  },
+  {
+    "path": "dgm_option_pricing/results/comparison/d_3/comparison_results.json",
+    "bytes": 808,
+    "sha256": "945d165873c3d7b4d66f0120f600e279151a8f9f825b3a0254eb6c031998f8b6"
+  },
+  {
+    "path": "dgm_option_pricing/results/hybrid_mc/d_1/hybrid_mc_results.json",
+    "bytes": 264,
+    "sha256": "65f802c1e06f1c882725d56fa317fdda59e5a03fffd06c18800b9d3abeacdf8f"
+  },
+  {
+    "path": "dgm_option_pricing/results/hybrid_mc/d_2/hybrid_mc_results.json",
+    "bytes": 262,
+    "sha256": "f9e2877c9b183647cf98c39bebcc94a44dc7150cc4188ab0df9cf725893326a2"
+  },
+  {
+    "path": "dgm_option_pricing/results/hybrid_mc/d_3/hybrid_mc_results.json",
+    "bytes": 264,
+    "sha256": "b637147b4a20e8aa1c3815d09ddb48b97142513cf54c5a5042a6a1529126620a"
+  },
+  {
+    "path": "dgm_option_pricing/results/hybrid_mc/d_5/hybrid_mc_results.json",
+    "bytes": 264,
+    "sha256": "af20c6e31678433cb2b06c37c096beb8e62a37caee95f0c96b0ffe5984b7000a"
+  },
+  {
+    "path": "dgm_option_pricing/results/hybrid_mc/d_7/hybrid_mc_d7/config.json",
+    "bytes": 2258,
+    "sha256": "c85d4b407b35814657813508dfb03a58801d3106259cbe4f3636793426a63089"
+  },
+  {
+    "path": "dgm_option_pricing/results/hybrid_mc/d_7/hybrid_mc_d7/config.yaml",
+    "bytes": 1625,
+    "sha256": "32e6476c319eedada44d9e877b7b9843fda993fd7632d50604632f0d07eb35cb"
+  },
+  {
+    "path": "dgm_option_pricing/results/hybrid_mc/hybrid_mc_summary.json",
+    "bytes": 2167,
+    "sha256": "8a12ded59e2fae71b249a14800a8f8e56b8732c4a05e03aac7fa553b85c55fd8"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_1/comparison_results.json",
+    "bytes": 1297,
+    "sha256": "25d65fce3d497490f63f4052d74dd13bcef982ce9f2bf07eb1e48c9bfb9282ca"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_10/comparison_results.json",
+    "bytes": 1301,
+    "sha256": "37dc1dc890f1fbbd267a5290d13f668b8cba10570afdb60c0d9e7cbd4bad4abe"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_100/comparison_results.json",
+    "bytes": 1304,
+    "sha256": "c41b05dfcb98bc8dcf5317b56f241a4345c71a26b41ebb7b6b5aba2ec7430e19"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_2/comparison_results.json",
+    "bytes": 1298,
+    "sha256": "cfd14298f90894be6ea9105d12c1c80842229c290b0830aac3e1bd514c28adf4"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_25/comparison_results.json",
+    "bytes": 1306,
+    "sha256": "12f07cf74e79dfca134c1a9c298c6f6afe2109f9753638b8e9cdeee62b372ca6"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_3/comparison_results.json",
+    "bytes": 1298,
+    "sha256": "ac839a5b162304a0307fa06c0fb2017f6cacc9f90c19b69a5de7a9042f9643ad"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_5/comparison_results.json",
+    "bytes": 1302,
+    "sha256": "a30e0a9db87f3d2e720526bd7f6873afebb8db3aa2671ef0ff3586148205519f"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_50/comparison_results.json",
+    "bytes": 1302,
+    "sha256": "e24e631097311563922e71ae18214c34baff13fa36f21250603e3b031dbfacd9"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison/d_7/comparison_results.json",
+    "bytes": 1294,
+    "sha256": "b3e68b59b91468724d9e80a028b8268103c8091564607fd157e80fd46201f1a0"
+  },
+  {
+    "path": "dgm_option_pricing/results/publication/comparison_summary.json",
+    "bytes": 12050,
+    "sha256": "6a3d55936937e925204cd86f6f96b4884a9aff7c144185ee35aed71835ecc5b2"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_1/result.json",
+    "bytes": 133,
+    "sha256": "f3cb64f5cbf87227c5118c9960ba0a291cddcf527c1580e345639994a9151b0a"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_10/result.json",
+    "bytes": 138,
+    "sha256": "e67f408e50cf06d6bd5e9fdb48afb229de67f0303bfe080ecfab1a544d6c28a0"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_2/result.json",
+    "bytes": 133,
+    "sha256": "c070f8377efddbbcea6cb73b500321135b7da030b3fdef833b7737ba86171716"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_3/eval_history.json",
+    "bytes": 389,
+    "sha256": "a4b42de52f91ecdccc81b4a6658dfa1104874bafb99967dda20eaa81201052d8"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_3/loss_history.json",
+    "bytes": 9607,
+    "sha256": "4339a6bcb540d62aa8cbcfe6138015f988068cc83c94074b9ab34d9f19b30812"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_3/result.json",
+    "bytes": 203,
+    "sha256": "54d33af6793a1b28ce072ac30d8fb2dbecee6f28e9066af144a163b2a272f039"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_3/scaling_d3/config.json",
+    "bytes": 1527,
+    "sha256": "52b0a4c8d4a127174b574cada88feae2b6f132a252edf4975ddae9217c1983c3"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_3/scaling_d3/config.yaml",
+    "bytes": 1110,
+    "sha256": "65804e7b267c7a3a37a0033921ad6f451f214faf7d11840acf371df3271ff77d"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_3/scaling_d3/results.json",
+    "bytes": 11066,
+    "sha256": "1a911241f1135285881acad2fd38e4573550a982a6eaef24a50b4d8d6f630527"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_5/eval_history.json",
+    "bytes": 387,
+    "sha256": "2cc844f92b0a93f98b901966ba73831ec945f8cdfcd567575f61fb335f4b28db"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_5/loss_history.json",
+    "bytes": 9612,
+    "sha256": "10213efe7d2be781522fdbf60c2cf8e05baece230afe94411509e3a8f49aaa67"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_5/result.json",
+    "bytes": 204,
+    "sha256": "5ac99d07b29388d890808b5eba42c9b164a48701802638d03298679dea336082"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_5/scaling_d5/config.json",
+    "bytes": 1835,
+    "sha256": "c34eac068a8bdc232e9bcdd8abef21f14ad2043f0da9e3e102087ea8aa4800ca"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_5/scaling_d5/config.yaml",
+    "bytes": 1322,
+    "sha256": "d204405ad35f22935c0945e3d83db9636ceb932fb9516f93b39a92a36360f3da"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_5/scaling_d5/results.json",
+    "bytes": 11070,
+    "sha256": "73fc5f2c17f806c553c3b587aa2a4a7e657e8207025491e4d779066d5b5e91e6"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_7/result.json",
+    "bytes": 133,
+    "sha256": "4bdeb57478dc56290a1374cd87366baf745412fa38dc148cd6e248f277cc7f84"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_7/scaling_d7/config.json",
+    "bytes": 2255,
+    "sha256": "b78b60b954483fefe33a25ccd8f5fa8c6cb63428e6ddd600e18f5fcf63fef22c"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/d_7/scaling_d7/config.yaml",
+    "bytes": 1622,
+    "sha256": "86858f5a434473395506cee02c97c32558289a9101dd7c78842854d516179430"
+  },
+  {
+    "path": "dgm_option_pricing/results/scaling/scaling_summary.json",
+    "bytes": 1639,
+    "sha256": "c2d9d6e75de0c3775afd637c9ef3ea3008525dfccf615bbafff9fb6b00cd19e2"
+  },
+  {
+    "path": "dgm_option_pricing/samplers/__init__.py",
+    "bytes": 61,
+    "sha256": "dcd60c7575cbead8a40ee927a21cf4ffb03b2ffda278686754a49a85d163811b"
+  },
+  {
+    "path": "dgm_option_pricing/samplers/adaptive_sampler.py",
+    "bytes": 3758,
+    "sha256": "9628364605484c6d5c34e12a8a2667e6277cfc9feaf5324d38ddc3afe92c6e9b"
+  },
+  {
+    "path": "dgm_option_pricing/samplers/base_sampler.py",
+    "bytes": 1455,
+    "sha256": "7cc4214f242a494c70342aa03635498497dcb0534907269b01066cd07b70e4ec"
+  },
+  {
+    "path": "dgm_option_pricing/samplers/boundary_sampler.py",
+    "bytes": 2399,
+    "sha256": "ab983c99d006f69a28c420cde95087f4715fc04a3fc8922b49a2aa77401f759f"
+  },
+  {
+    "path": "dgm_option_pricing/samplers/risk_neutral_sampler.py",
+    "bytes": 3973,
+    "sha256": "e6633aa7fa51bb20727058fb27cf6214b48f5a44aeb9faea4da527f7f44597e6"
+  },
+  {
+    "path": "dgm_option_pricing/samplers/uniform_sampler.py",
+    "bytes": 2184,
+    "sha256": "08f84e926ac19ca3c788e3199fae3382c8f8e44013bf8aa7c25ed3186337c62a"
+  },
+  {
+    "path": "dgm_option_pricing/scratch_fix.py",
+    "bytes": 1024,
+    "sha256": "c7a23a65f5de7991921414dfa06db842000c4ca0638c38a311d98ed29e171a0b"
+  },
+  {
+    "path": "dgm_option_pricing/scratch_fix2.py",
+    "bytes": 1002,
+    "sha256": "24d3539c312334cc01747291947b87d552d0f9765b6b5edce7a7627ca61fa1da"
+  },
+  {
+    "path": "dgm_option_pricing/scripts/update_readme.py",
+    "bytes": 4638,
+    "sha256": "fd7e4ba808640a17f6560525bbf54edff6460958a45ad41a015572ae5ad29a98"
+  },
+  {
+    "path": "dgm_option_pricing/tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "dgm_option_pricing/tests/test_analytical.py",
+    "bytes": 2673,
+    "sha256": "06f1cfe3b4bc73dafc588e2a15807fa6c96ab0dd2e4e88bf676fb31e27685ffe"
+  },
+  {
+    "path": "dgm_option_pricing/tests/test_dgm_1d.py",
+    "bytes": 2319,
+    "sha256": "ca59cef0ff2530a12141ac7b6b13ab477a7ffa9bd8025d45cbd55f567aa78604"
+  },
+  {
+    "path": "dgm_option_pricing/tests/test_monte_carlo.py",
+    "bytes": 3185,
+    "sha256": "c64e6dad07fb3a67855a1b3f0a3572d83f94719f16de5fedb8e58bf7e2604c81"
+  },
+  {
+    "path": "dgm_option_pricing/tests/test_payoffs.py",
+    "bytes": 2563,
+    "sha256": "ed3bb89706b0e8831d7feb53f039518d532b892625504c43b93bfc4578031347"
+  },
+  {
+    "path": "dgm_option_pricing/tests/test_pde_operator.py",
+    "bytes": 7538,
+    "sha256": "33c0d18b3cb30ca1e5e8616408ecd6859ef6893ab983d73a4a57fafc08f82194"
+  },
+  {
+    "path": "dgm_option_pricing/training/__init__.py",
+    "bytes": 71,
+    "sha256": "ab9750c6ba5f7f6f11a32e3be446ea7894e08be9e4d8d9f62f27f1d06e6dc22c"
+  },
+  {
+    "path": "dgm_option_pricing/training/callbacks.py",
+    "bytes": 3394,
+    "sha256": "5ce9c209c6e5c635cd91df7ce4e59961a1681801cfadd5c93f6d22931590f8f0"
+  },
+  {
+    "path": "dgm_option_pricing/training/fbsde_trainer.py",
+    "bytes": 3729,
+    "sha256": "6d924a3ce1f6eaaaae15166fe218e5485ff6c6d45bb737779ded1e10b63a5132"
+  },
+  {
+    "path": "dgm_option_pricing/training/scheduler.py",
+    "bytes": 1199,
+    "sha256": "d54bc9c4ff62d2a7a51f91f6171bcaef65dce2a9aa9d7d82623b329bb9f637e5"
+  },
+  {
+    "path": "dgm_option_pricing/training/trainer.py",
+    "bytes": 13253,
+    "sha256": "40ba9e0cc30101e45b45856c97f49d49216423d1206c01c703497ca0e3742d06"
+  },
+  {
+    "path": "dgm_option_pricing/utils/__init__.py",
+    "bytes": 107,
+    "sha256": "c5c459865cda9336bcf7f49c0e02c3e3baff80b55fd39460a98cba384bbccb2c"
+  },
+  {
+    "path": "dgm_option_pricing/utils/io_utils.py",
+    "bytes": 2061,
+    "sha256": "dd35bdcafba045f8f73a6452c4442c881e37d137c6bd48cc3863af9be08a17da"
+  },
+  {
+    "path": "dgm_option_pricing/utils/logging.py",
+    "bytes": 3287,
+    "sha256": "352ab0b160947f4fe73254dd323587dabe654859800907713d380606ea03e891"
+  },
+  {
+    "path": "dgm_option_pricing/utils/math_utils.py",
+    "bytes": 2954,
+    "sha256": "3f36e591c327d3fa86abdea34be3c58e6383f6fdc3a0fcbdf296711365ce93bb"
+  },
+  {
+    "path": "dgm_option_pricing/utils/random.py",
+    "bytes": 999,
+    "sha256": "7f6c4ccff9bb5cff00acc14e649c584f9a1eb8731e7b4dca614b1f6365103efa"
+  },
+  {
+    "path": "neurips_submission/baselines/__init__.py",
+    "bytes": 75,
+    "sha256": "ded14eed84ac90eb76964c416f055e93a48886a6eeaa0687088d255a50a6932c"
+  },
+  {
+    "path": "neurips_submission/baselines/zhou_et_al.py",
+    "bytes": 6092,
+    "sha256": "ae43f0878e8bbc00ba35ed9baf4bcb1d13b970f63151f681edcb329194b12b93"
+  },
+  {
+    "path": "neurips_submission/configs/__init__.py",
+    "bytes": 253,
+    "sha256": "8fb73112ba7b7a32b4daeb82fff99f0c5f65b428c8fc7a6dee6e2a44e21d9d81"
+  },
+  {
+    "path": "neurips_submission/configs/base_config.py",
+    "bytes": 8759,
+    "sha256": "2f6a1925eeaf86a0851c455897009e7e48481fcb38ba09d0b55a442d5b5b0ae2"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/ablation_activation.yaml",
+    "bytes": 849,
+    "sha256": "f021faa0606817a46f2025a6f6d1f569db42d474a752dc28998003513c625d20"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/ablation_architecture.yaml",
+    "bytes": 844,
+    "sha256": "5471d053f5f461048c52622a57f2fb9a956f073033261cd28aabac14a03dd574"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/ablation_loss_weights.yaml",
+    "bytes": 871,
+    "sha256": "ee4ade983ce7fdb92685a00bee505ff36a40c054360d03c203ee6552c54aec96"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/ablation_sampling.yaml",
+    "bytes": 837,
+    "sha256": "4d3b8576a3bf86484c35e7d62aef4040e2a089c8ad8446f4000a42e93743a4a3"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/basket_d10.yaml",
+    "bytes": 1455,
+    "sha256": "e6f1e9da5d78b1b7c7b7b48a06f61c09a37af113a6c854d501997b0dcdc114b3"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/basket_d2.yaml",
+    "bytes": 817,
+    "sha256": "603ee90e07b1bc26524c44ccbd0fdee98ef173bf920d2c5cf8614e0d172098b5"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/basket_d3.yaml",
+    "bytes": 871,
+    "sha256": "9284c3c3296dba242e4ff34622239ea6c12a9c5544d7db544ed872e34acb3cf7"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/basket_d5.yaml",
+    "bytes": 987,
+    "sha256": "adb29f34147c6b13ec0a22e65e7cc0027f1c4a688d7a2d1c36a5bee3de441203"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/basket_d7.yaml",
+    "bytes": 1143,
+    "sha256": "79054bdeb4838014a686339da0aab3f1d9b12f7970c3ff3311e370b5b83a5cf8"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/validate_1d.yaml",
+    "bytes": 793,
+    "sha256": "e7fa2186ca0730ac611872008fe8ef4acf215862b17ef44a1302c8c118e91f82"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/validate_2d_geometric.yaml",
+    "bytes": 845,
+    "sha256": "1799829df39a05e97f1879f2bb4199b8b82d2692fea454b6a4db0c9d052d6428"
+  },
+  {
+    "path": "neurips_submission/configs/experiments/zhou_replication.yaml",
+    "bytes": 835,
+    "sha256": "de1ab6cbb738415505372b532da8fc8fbbc47e5f3b74a7944ddf99fd30c01529"
+  },
+  {
+    "path": "neurips_submission/design.md",
+    "bytes": 20450,
+    "sha256": "9201e9e5d6c1b70e9bdfaf72aedbdbe0b5d5c784b53476ac12273655cf7c9720"
+  },
+  {
+    "path": "neurips_submission/evaluation/__init__.py",
+    "bytes": 72,
+    "sha256": "d3f661d12e509da8a5d64763edb8dcaab1a95a8adc166cee5c41c52a25082a8f"
+  },
+  {
+    "path": "neurips_submission/evaluation/diagnostics.py",
+    "bytes": 1882,
+    "sha256": "9aef533a025dcdbdc4ce3528049d5375655dfecd0a81eba82e1bbd996c2f2d9b"
+  },
+  {
+    "path": "neurips_submission/evaluation/metrics.py",
+    "bytes": 1685,
+    "sha256": "68dde89c0149f89d9a8efae18072b380eae95ea58765523dd0300bd9792fed67"
+  },
+  {
+    "path": "neurips_submission/evaluation/monte_carlo.py",
+    "bytes": 4481,
+    "sha256": "f578180bebd620910c5772dba939d183f6c6198115514c59aff49fe58e0dbe14"
+  },
+  {
+    "path": "neurips_submission/experiments/__init__.py",
+    "bytes": 79,
+    "sha256": "9beec23380bbb7fc3cc5850c3c6a6aa64c22ac00c80e347c2cb9454cfbc85359"
+  },
+  {
+    "path": "neurips_submission/experiments/generate_paper_figures.py",
+    "bytes": 10430,
+    "sha256": "dd7cc6765159269102fda4efd7272dcf3b20bc0931c9cf3ae0e83e231d66a6d6"
+  },
+  {
+    "path": "neurips_submission/experiments/run_ablations.py",
+    "bytes": 7001,
+    "sha256": "7b5fdecc4ef88f60b03f52899f63b7f0fd3ed9abc96e8b3119c6a5a07f2cb710"
+  },
+  {
+    "path": "neurips_submission/experiments/run_comparison.py",
+    "bytes": 7215,
+    "sha256": "f60c8cb4f0badb2cfa140bbcdc5249e5fa748b0055badf30b29c6d33f80ca163"
+  },
+  {
+    "path": "neurips_submission/experiments/run_greeks.py",
+    "bytes": 3095,
+    "sha256": "334739b8f824da960fbbbe6651aef291bf75086d75450dbf817fe62f68dedb60"
+  },
+  {
+    "path": "neurips_submission/experiments/run_hybrid_mc.py",
+    "bytes": 7940,
+    "sha256": "a1b3c5275ea7bafd5e29537b3162801e40e457af8004f8c70accfb382ffe835a"
+  },
+  {
+    "path": "neurips_submission/experiments/run_resilience_test.py",
+    "bytes": 4724,
+    "sha256": "a618674c0271f3facf1808f7d741ce627541eaefc222911b1fa73b522224804b"
+  },
+  {
+    "path": "neurips_submission/experiments/run_scaling.py",
+    "bytes": 5806,
+    "sha256": "ecd6416f38c704ba1469421508ae41b647ce1b309f185dc94de29574fb2aa928"
+  },
+  {
+    "path": "neurips_submission/experiments/run_validation.py",
+    "bytes": 8126,
+    "sha256": "c219ca7d850be7a04a0777fdb4b567980eb491d73abcb2af756fcc0a5b75fa42"
+  },
+  {
+    "path": "neurips_submission/experiments/run_zhou_replication.py",
+    "bytes": 4917,
+    "sha256": "47388966eca7af850ef102604eb6b3ebb1666217777d9a81e95dc5774a11469b"
+  },
+  {
+    "path": "neurips_submission/hybrid_mc_stats.py",
+    "bytes": 1098,
+    "sha256": "907de2aa11dfc1042e61cb7db2a8de48cf982e6bd8b762ca57f02d0b3c4f1237"
+  },
+  {
+    "path": "neurips_submission/losses/__init__.py",
+    "bytes": 78,
+    "sha256": "0b7f9b7f89245362640f5c831a67314a8926e5d417a08d1262456a15b462fa9f"
+  },
+  {
+    "path": "neurips_submission/losses/boundary_loss.py",
+    "bytes": 1016,
+    "sha256": "4396265b9e59276c02c8517b87fa9945fe9192c8490cbb30e6378a806bd7bd3f"
+  },
+  {
+    "path": "neurips_submission/losses/combined_loss.py",
+    "bytes": 2965,
+    "sha256": "2b4fb84b8afa6ef72101e936655ca2681a9d00660f157a2ac73b8dddbf3af1ec"
+  },
+  {
+    "path": "neurips_submission/losses/pde_loss.py",
+    "bytes": 1598,
+    "sha256": "18bc26accfe0af861173331daf6c1472c58f678f6f3fa74a722d83a1b319239b"
+  },
+  {
+    "path": "neurips_submission/losses/terminal_loss.py",
+    "bytes": 1163,
+    "sha256": "35a5aedd0b3c34ba47c02f031bf2b1da50965066cf4ff727c16f6b69d41bf413"
+  },
+  {
+    "path": "neurips_submission/models/__init__.py",
+    "bytes": 66,
+    "sha256": "030a759a60c2860f69481ca13de4a5d77af7954e269b6aac50fb4f1de9e9a24c"
+  },
+  {
+    "path": "neurips_submission/models/dgm_layer.py",
+    "bytes": 3853,
+    "sha256": "0de8cacd1009b5c60f03cbe9eec3db1ebd0d07ff2ce2a195920509813504ff2e"
+  },
+  {
+    "path": "neurips_submission/models/dgm_network.py",
+    "bytes": 7222,
+    "sha256": "f8207b4eff0f4e22326f4bc2ee0fa1bc91cc8ed94e6a44e8d476be1781578c08"
+  },
+  {
+    "path": "neurips_submission/models/mlp_network.py",
+    "bytes": 5720,
+    "sha256": "7c2ab0dea0c7f4586191a21aa70bbe51d73ddfd1dc063125a38f93461b4704ff"
+  },
+  {
+    "path": "neurips_submission/models/model_factory.py",
+    "bytes": 1466,
+    "sha256": "6ef42844dc7d685076fe375c675786893d8a750a2a24d797c7177f5fa3615848"
+  },
+  {
+    "path": "neurips_submission/paper.tex",
+    "bytes": 38028,
+    "sha256": "eec2bda49d4f074bb7b14420110dab174e756102b06fafd07a9dcdcdadfec161"
+  },
+  {
+    "path": "neurips_submission/pde/__init__.py",
+    "bytes": 89,
+    "sha256": "12cf9b86f2d2e29d3754451a82dcb9941bf033cba299595628e9e6355bf3fb7e"
+  },
+  {
+    "path": "neurips_submission/pde/analytical.py",
+    "bytes": 5970,
+    "sha256": "1df5cfa1b9a0ed095aeaef56ea96fe9f4a180cba04230ac47911ba5b50846e6e"
+  },
+  {
+    "path": "neurips_submission/pde/boundary.py",
+    "bytes": 2389,
+    "sha256": "cac5f216b43b91bc6cdba47a304dba8ffa32d5660b41b3a92c29ae1e6d89022f"
+  },
+  {
+    "path": "neurips_submission/pde/operator.py",
+    "bytes": 4997,
+    "sha256": "d35468551a9874351d90467ab8f54e933a010240cd891267366e3144f6a2f972"
+  },
+  {
+    "path": "neurips_submission/pde/payoffs.py",
+    "bytes": 6909,
+    "sha256": "886460d85a448145c93fd3f98e0082f0927f2bda9473cbb5d7fd9727402d44d7"
+  },
+  {
+    "path": "neurips_submission/plotting/__init__.py",
+    "bytes": 72,
+    "sha256": "25132d3123d576d35177e8df4e58f92e1099e4023946e1d8239147d6491dce11"
+  },
+  {
+    "path": "neurips_submission/plotting/comparative_plots.py",
+    "bytes": 7593,
+    "sha256": "0e82bc3c1efb305530eaf783eba860e37e229278a6d0a86c483b5d76c946d3b9"
+  },
+  {
+    "path": "neurips_submission/plotting/convergence.py",
+    "bytes": 2328,
+    "sha256": "3f28ba256f52e8dfeb7174fa811ac0296edd2accbc7b0b992e1e04b4dcdc7a9e"
+  },
+  {
+    "path": "neurips_submission/plotting/error_maps.py",
+    "bytes": 2391,
+    "sha256": "0428705229f905beb2ea8afbe63221cfe933439597aef7d8f35d91fd0977896c"
+  },
+  {
+    "path": "neurips_submission/plotting/greeks_plots.py",
+    "bytes": 3881,
+    "sha256": "6f3d013d46bc50d1cc08f6d97d8d72eeda3af8a32d8f15cedcc41aa45e446f60"
+  },
+  {
+    "path": "neurips_submission/plotting/price_surface.py",
+    "bytes": 1896,
+    "sha256": "130d1a3440adec30216d03ef60f34138fbd122e3fc4cac7738160de5370859a9"
+  },
+  {
+    "path": "neurips_submission/plotting/scaling_plots.py",
+    "bytes": 2972,
+    "sha256": "d0d64ea62ca338b1c6482bab9efcaaf6113b67732da9f57768e07e03d5aa6f1e"
+  },
+  {
+    "path": "neurips_submission/plotting/style.py",
+    "bytes": 2463,
+    "sha256": "231c833096183194e21dc80545abf68f1998d35a4939962267028ae6c5f27e25"
+  },
+  {
+    "path": "neurips_submission/plotting/zhou_figures.py",
+    "bytes": 14364,
+    "sha256": "34cc8e357616b2c551da318c677940b91d92aa589b4946315a2d2b8e490c42ff"
+  },
+  {
+    "path": "neurips_submission/pyproject.toml",
+    "bytes": 819,
+    "sha256": "ff3c273297b64b861815d77f3eda1ae6f70e8c9be97e1c837ad857cf43792650"
+  },
+  {
+    "path": "neurips_submission/README.md",
+    "bytes": 30493,
+    "sha256": "80766b0d6ac95f7f93d1b05a73c3acf73d0be97483062e3fe160c9646fe81973"
+  },
+  {
+    "path": "neurips_submission/results/ablations/ablation_summary.json",
+    "bytes": 16698,
+    "sha256": "b28b86df5c5df1cf21d955e58cdc4506e38e780a0367a6ff19b08090e42e2bf5"
+  },
+  {
+    "path": "neurips_submission/results/ablations/adaptive_sampling/ablation_adaptive_sampling/config.json",
+    "bytes": 1444,
+    "sha256": "866d23613d67b3968f4d769795891ed562626684c41202719361a6f32a744bc6"
+  },
+  {
+    "path": "neurips_submission/results/ablations/adaptive_sampling/ablation_adaptive_sampling/config.yaml",
+    "bytes": 1066,
+    "sha256": "bb7e8ebdf64c3f7c4099dc6f781f45220f07ad3e68c273f89143d7b1dfd97eaf"
+  },
+  {
+    "path": "neurips_submission/results/ablations/adaptive_sampling/ablation_adaptive_sampling/results.json",
+    "bytes": 11058,
+    "sha256": "dcbf8706b5ece4a1c779e623613203b801b9a54ab33d5adf82b9a3b330c3904a"
+  },
+  {
+    "path": "neurips_submission/results/ablations/adaptive_sampling/ablation_result.json",
+    "bytes": 152,
+    "sha256": "f105b0f3697bb256b1f7cd54c4e0ad6ca7b3db6f057970021f9447d6efe1b9c3"
+  },
+  {
+    "path": "neurips_submission/results/ablations/risk_neutral_sampling/ablation_result.json",
+    "bytes": 156,
+    "sha256": "4127e3b8e9841470ebd93c1d913469a0f3716590650458dded0707ca9918d4a3"
+  },
+  {
+    "path": "neurips_submission/results/ablations/risk_neutral_sampling/ablation_risk_neutral_sampling/config.json",
+    "bytes": 1456,
+    "sha256": "f08e6bb758a913295264e1df1ba9329c05c5e8a58cff89251a2ca0d973145f9f"
+  },
+  {
+    "path": "neurips_submission/results/ablations/risk_neutral_sampling/ablation_risk_neutral_sampling/config.yaml",
+    "bytes": 1078,
+    "sha256": "ef86eb21e9cdf01e5aa5cdf8b6ce4dc0178bbed9d94cc29f9e1fbdbe8d74b8d9"
+  },
+  {
+    "path": "neurips_submission/results/ablations/risk_neutral_sampling/ablation_risk_neutral_sampling/results.json",
+    "bytes": 11063,
+    "sha256": "45882840e7cb25b95bcd120a3fa2a58ef727b9a3d61396306e292c6018a45380"
+  },
+  {
+    "path": "neurips_submission/results/ablations/soft_constraint/ablation_result.json",
+    "bytes": 151,
+    "sha256": "e0c3ba60617ef68009fa14faa4a9254440027f961d31b2f508cb5c95cb4d5aab"
+  },
+  {
+    "path": "neurips_submission/results/ablations/soft_constraint/ablation_soft_constraint/config.json",
+    "bytes": 1445,
+    "sha256": "2ab09f8fce629827237d62e57c59f041e393ae10bb93e54c4e850bff7ac82b09"
+  },
+  {
+    "path": "neurips_submission/results/ablations/soft_constraint/ablation_soft_constraint/config.yaml",
+    "bytes": 1067,
+    "sha256": "cdc553051cab851de9d4f1f0bfb7d85c8394f5a48b1421d07855352148fc8de3"
+  },
+  {
+    "path": "neurips_submission/results/ablations/soft_constraint/ablation_soft_constraint/results.json",
+    "bytes": 12885,
+    "sha256": "2ab473463988ad48e36f5a069eee34592d8b3dd40bbd9aeef6af9c62bf3b5090"
+  },
+  {
+    "path": "neurips_submission/results/ablations/uniform_sampling/ablation_result.json",
+    "bytes": 152,
+    "sha256": "085442130e0e157dd310093ade18e4c9d7ad276da57a778476d49820ac71ddd6"
+  },
+  {
+    "path": "neurips_submission/results/ablations/uniform_sampling/ablation_uniform_sampling/config.json",
+    "bytes": 1441,
+    "sha256": "7301639443e6209d92a4c6d649f3b3949c0d302113c1ba9c1065405204044ea1"
+  },
+  {
+    "path": "neurips_submission/results/ablations/uniform_sampling/ablation_uniform_sampling/config.yaml",
+    "bytes": 1063,
+    "sha256": "40336a6928b888052f166c063006039538ef314beae06dfa3f8ed28b440d20d3"
+  },
+  {
+    "path": "neurips_submission/results/ablations/uniform_sampling/ablation_uniform_sampling/results.json",
+    "bytes": 11012,
+    "sha256": "ee9c2e8e6e3b131705d4cbb6e988b8a4f46aa41d9fafbdb2307df3ba1b4dacb3"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_1/comparison_dgm_d1/config.json",
+    "bytes": 1347,
+    "sha256": "7fc3f383cda07a3ff19c1a245c9590b6af5364d9aba9cbeaf89c9ec579b51fea"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_1/comparison_dgm_d1/config.yaml",
+    "bytes": 1002,
+    "sha256": "fe7319684161525cc5155a9732897019afca270fae1ba5cf0a22cbfc564bf770"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_1/comparison_dgm_d1/results.json",
+    "bytes": 11081,
+    "sha256": "9d4f6dd5e0b5248a264c6dd97d8a06030120f6f470341d26fc84e119b3521eb4"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_1/comparison_results.json",
+    "bytes": 807,
+    "sha256": "18ed9f3ce838776f2ac63f893177217700b77f7d9a5dc27436a97df6dff69fc7"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_2/comparison_dgm_d2/config.json",
+    "bytes": 1431,
+    "sha256": "4c81159c83c472d97b8f4f3b2e2f7e2d2c5fa5c9e5cc17565735c240820b416f"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_2/comparison_dgm_d2/config.yaml",
+    "bytes": 1053,
+    "sha256": "cdf4d3ea281cde862e9d2bd69d46d1a9d33a0cf9fba8532c96d07363a0986cc3"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_2/comparison_dgm_d2/results.json",
+    "bytes": 11046,
+    "sha256": "3cf1c111695bcc2a89cf45696313880960af329023724b0390cbcfe2a38ceaec"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_2/comparison_results.json",
+    "bytes": 806,
+    "sha256": "716c2f05e4fb250505e70bd7d0519f8afdbda18006bde2a732863db5628ab1e1"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_3/comparison_dgm_d3/config.json",
+    "bytes": 1543,
+    "sha256": "56f7c2c77d80bc07c65b3682608df7fade6be8cc4a0486b4e9ca229bbbdc5308"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_3/comparison_dgm_d3/config.yaml",
+    "bytes": 1126,
+    "sha256": "689eba4d4724d50ffa6f5405306a4be04e658764850156d31b58a390ad2a5986"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_3/comparison_dgm_d3/results.json",
+    "bytes": 11073,
+    "sha256": "a565615b676b1e474c2cb4f6e3ce9b6738ba69d6d97aa589fa04b37f129e683c"
+  },
+  {
+    "path": "neurips_submission/results/comparison/d_3/comparison_results.json",
+    "bytes": 808,
+    "sha256": "945d165873c3d7b4d66f0120f600e279151a8f9f825b3a0254eb6c031998f8b6"
+  },
+  {
+    "path": "neurips_submission/results/hybrid_mc/d_1/hybrid_mc_d1/config.json",
+    "bytes": 1335,
+    "sha256": "4e1322f1a96088c70fa440be9938a355bc17b60c14425991079368fca672251a"
+  },
+  {
+    "path": "neurips_submission/results/hybrid_mc/d_1/hybrid_mc_d1/config.yaml",
+    "bytes": 990,
+    "sha256": "e787fb3fc3d30edbd441a8b117aeb547cea45e26905d9327b5636cdc6d4653ea"
+  },
+  {
+    "path": "neurips_submission/results/hybrid_mc/d_1/hybrid_mc_results.json",
+    "bytes": 307,
+    "sha256": "ac7451806bafb009c27d3f4b3c08ad63daea0e0ede3deb2d6defb73f76b548e5"
+  },
+  {
+    "path": "neurips_submission/results/hybrid_mc/d_2/hybrid_mc_results.json",
+    "bytes": 307,
+    "sha256": "19fea14a12f560c205185f39350d1ecea95f0a8714e50c4b0b0267fa15359d93"
+  },
+  {
+    "path": "neurips_submission/results/hybrid_mc/d_3/hybrid_mc_results.json",
+    "bytes": 307,
+    "sha256": "acce4c8ae5b630afea909d05d28fe43543c2a2b79e14ae571bbd904ebc58d705"
+  },
+  {
+    "path": "neurips_submission/results/hybrid_mc/d_5/hybrid_mc_results.json",
+    "bytes": 307,
+    "sha256": "6bf55d8e7ee2e865df341d39ec6f9843ba667f76ae3a271406ff387cd627a622"
+  },
+  {
+    "path": "neurips_submission/results/hybrid_mc/hybrid_mc_summary.json",
+    "bytes": 1351,
+    "sha256": "38d3f57b471a4d8817930227a374d954bddd29cfaa0dff7502eed5db4f5acdaa"
+  },
+  {
+    "path": "neurips_submission/results/paper/comparison/d_1/comparison_results.json",
+    "bytes": 810,
+    "sha256": "32c6977f682ffa6f06ff819b9e45a875b2a81b9ea5645a189814c1b3d7034274"
+  },
+  {
+    "path": "neurips_submission/results/paper/comparison/d_2/comparison_results.json",
+    "bytes": 807,
+    "sha256": "4f00ac1715d1f6565bd3a6589d543682b2f1edae06e1850bf98818a936a751f8"
+  },
+  {
+    "path": "neurips_submission/results/paper/comparison/d_3/comparison_results.json",
+    "bytes": 810,
+    "sha256": "2397a38ca3e92d2a75cca135474cb98bbe818bbda386e0054f6b9d4bbd8b0774"
+  },
+  {
+    "path": "neurips_submission/results/paper/comparison/d_5/comparison_results.json",
+    "bytes": 809,
+    "sha256": "d26b634e3882b22eca4581690347fd85b94f8b28536c146d613650cd446faf9d"
+  },
+  {
+    "path": "neurips_submission/results/paper/comparison/d_7/comparison_dgm_d7/config.json",
+    "bytes": 2271,
+    "sha256": "f142e9cdbf397c370bbe5b7ebaa49b1c98dc35d9aa65a8fad1766117feaf87ff"
+  },
+  {
+    "path": "neurips_submission/results/paper/comparison/d_7/comparison_dgm_d7/config.yaml",
+    "bytes": 1638,
+    "sha256": "ff558ce8984d93577c185c797d042e2450f81071e130b65ada4a4d29965e4a4e"
+  },
+  {
+    "path": "neurips_submission/results/resilience/resilience_results.json",
+    "bytes": 915,
+    "sha256": "c1b18c7726c55433ebb32a7e17652c9c3f04e0d83f67e39121ce3c9b455d098f"
+  },
+  {
+    "path": "neurips_submission/results/resilience/resilience_test/config.json",
+    "bytes": 1419,
+    "sha256": "f41d3ac9f8973c0f9b4466c2aaa6d5dd0bf24e5a36f0ce06b06ae557f71fc049"
+  },
+  {
+    "path": "neurips_submission/results/resilience/resilience_test/config.yaml",
+    "bytes": 1041,
+    "sha256": "82d07c45649dfb48aa21a5c8becd9ada6998c07e4d73bd2367c092edc4ffdb55"
+  },
+  {
+    "path": "neurips_submission/results/resilience/resilience_test/results.json",
+    "bytes": 6484,
+    "sha256": "d908e382da2f594f9a141464810b9f6fd3d85f6418d38d54c8b389b86e08e219"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_3/eval_history.json",
+    "bytes": 389,
+    "sha256": "a4b42de52f91ecdccc81b4a6658dfa1104874bafb99967dda20eaa81201052d8"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_3/loss_history.json",
+    "bytes": 9607,
+    "sha256": "4339a6bcb540d62aa8cbcfe6138015f988068cc83c94074b9ab34d9f19b30812"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_3/result.json",
+    "bytes": 203,
+    "sha256": "54d33af6793a1b28ce072ac30d8fb2dbecee6f28e9066af144a163b2a272f039"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_3/scaling_d3/config.json",
+    "bytes": 1527,
+    "sha256": "52b0a4c8d4a127174b574cada88feae2b6f132a252edf4975ddae9217c1983c3"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_3/scaling_d3/config.yaml",
+    "bytes": 1110,
+    "sha256": "65804e7b267c7a3a37a0033921ad6f451f214faf7d11840acf371df3271ff77d"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_3/scaling_d3/results.json",
+    "bytes": 11066,
+    "sha256": "1a911241f1135285881acad2fd38e4573550a982a6eaef24a50b4d8d6f630527"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_5/eval_history.json",
+    "bytes": 387,
+    "sha256": "2cc844f92b0a93f98b901966ba73831ec945f8cdfcd567575f61fb335f4b28db"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_5/loss_history.json",
+    "bytes": 9612,
+    "sha256": "10213efe7d2be781522fdbf60c2cf8e05baece230afe94411509e3a8f49aaa67"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_5/result.json",
+    "bytes": 204,
+    "sha256": "5ac99d07b29388d890808b5eba42c9b164a48701802638d03298679dea336082"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_5/scaling_d5/config.json",
+    "bytes": 1835,
+    "sha256": "c34eac068a8bdc232e9bcdd8abef21f14ad2043f0da9e3e102087ea8aa4800ca"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_5/scaling_d5/config.yaml",
+    "bytes": 1322,
+    "sha256": "d204405ad35f22935c0945e3d83db9636ceb932fb9516f93b39a92a36360f3da"
+  },
+  {
+    "path": "neurips_submission/results/scaling/d_5/scaling_d5/results.json",
+    "bytes": 11070,
+    "sha256": "73fc5f2c17f806c553c3b587aa2a4a7e657e8207025491e4d779066d5b5e91e6"
+  },
+  {
+    "path": "neurips_submission/samplers/__init__.py",
+    "bytes": 61,
+    "sha256": "dcd60c7575cbead8a40ee927a21cf4ffb03b2ffda278686754a49a85d163811b"
+  },
+  {
+    "path": "neurips_submission/samplers/adaptive_sampler.py",
+    "bytes": 3758,
+    "sha256": "9628364605484c6d5c34e12a8a2667e6277cfc9feaf5324d38ddc3afe92c6e9b"
+  },
+  {
+    "path": "neurips_submission/samplers/base_sampler.py",
+    "bytes": 1455,
+    "sha256": "7cc4214f242a494c70342aa03635498497dcb0534907269b01066cd07b70e4ec"
+  },
+  {
+    "path": "neurips_submission/samplers/boundary_sampler.py",
+    "bytes": 2399,
+    "sha256": "ab983c99d006f69a28c420cde95087f4715fc04a3fc8922b49a2aa77401f759f"
+  },
+  {
+    "path": "neurips_submission/samplers/risk_neutral_sampler.py",
+    "bytes": 3973,
+    "sha256": "e6633aa7fa51bb20727058fb27cf6214b48f5a44aeb9faea4da527f7f44597e6"
+  },
+  {
+    "path": "neurips_submission/samplers/uniform_sampler.py",
+    "bytes": 2184,
+    "sha256": "08f84e926ac19ca3c788e3199fae3382c8f8e44013bf8aa7c25ed3186337c62a"
+  },
+  {
+    "path": "neurips_submission/temp_tables.md",
+    "bytes": 1440,
+    "sha256": "b0b67a0b8ce31f9cb21e9c41ec3d39d9789b2e50d5d74ffecedf21cbe71ac25a"
+  },
+  {
+    "path": "neurips_submission/tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "neurips_submission/tests/test_analytical.py",
+    "bytes": 2673,
+    "sha256": "06f1cfe3b4bc73dafc588e2a15807fa6c96ab0dd2e4e88bf676fb31e27685ffe"
+  },
+  {
+    "path": "neurips_submission/tests/test_dgm_1d.py",
+    "bytes": 2319,
+    "sha256": "ca59cef0ff2530a12141ac7b6b13ab477a7ffa9bd8025d45cbd55f567aa78604"
+  },
+  {
+    "path": "neurips_submission/tests/test_monte_carlo.py",
+    "bytes": 3185,
+    "sha256": "c64e6dad07fb3a67855a1b3f0a3572d83f94719f16de5fedb8e58bf7e2604c81"
+  },
+  {
+    "path": "neurips_submission/tests/test_payoffs.py",
+    "bytes": 2563,
+    "sha256": "ed3bb89706b0e8831d7feb53f039518d532b892625504c43b93bfc4578031347"
+  },
+  {
+    "path": "neurips_submission/tests/test_pde_operator.py",
+    "bytes": 7538,
+    "sha256": "33c0d18b3cb30ca1e5e8616408ecd6859ef6893ab983d73a4a57fafc08f82194"
+  },
+  {
+    "path": "neurips_submission/training/__init__.py",
+    "bytes": 71,
+    "sha256": "ab9750c6ba5f7f6f11a32e3be446ea7894e08be9e4d8d9f62f27f1d06e6dc22c"
+  },
+  {
+    "path": "neurips_submission/training/callbacks.py",
+    "bytes": 2223,
+    "sha256": "2aade774f150a188324da5ae47132a4a866482aac11a7bf7940b2ea1d55816bd"
+  },
+  {
+    "path": "neurips_submission/training/scheduler.py",
+    "bytes": 1199,
+    "sha256": "d54bc9c4ff62d2a7a51f91f6171bcaef65dce2a9aa9d7d82623b329bb9f637e5"
+  },
+  {
+    "path": "neurips_submission/training/trainer.py",
+    "bytes": 12654,
+    "sha256": "32fa82954d9051d5aaf8064dc22ed76cc8a877792c5b75d1efd8536453dc90f0"
+  },
+  {
+    "path": "neurips_submission/utils/__init__.py",
+    "bytes": 107,
+    "sha256": "c5c459865cda9336bcf7f49c0e02c3e3baff80b55fd39460a98cba384bbccb2c"
+  },
+  {
+    "path": "neurips_submission/utils/io_utils.py",
+    "bytes": 2061,
+    "sha256": "dd35bdcafba045f8f73a6452c4442c881e37d137c6bd48cc3863af9be08a17da"
+  },
+  {
+    "path": "neurips_submission/utils/logging.py",
+    "bytes": 3287,
+    "sha256": "352ab0b160947f4fe73254dd323587dabe654859800907713d380606ea03e891"
+  },
+  {
+    "path": "neurips_submission/utils/math_utils.py",
+    "bytes": 2954,
+    "sha256": "3f36e591c327d3fa86abdea34be3c58e6383f6fdc3a0fcbdf296711365ce93bb"
+  },
+  {
+    "path": "neurips_submission/utils/random.py",
+    "bytes": 999,
+    "sha256": "7f6c4ccff9bb5cff00acc14e649c584f9a1eb8731e7b4dca614b1f6365103efa"
+  }
+]

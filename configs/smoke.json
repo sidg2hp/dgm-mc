@@ -1,0 +1,10 @@
+{
+  "dimensions": [1], "training_seeds": [11], "architectures": ["dgm"],
+  "training": {"steps": 8, "width": 12, "depth": 1, "batch": 16,
+    "learning_rate": 0.001, "terminal_weight": 10.0, "collocation_std": 0.3},
+  "moneyness": [1.0], "repeats": 2, "paths": 128, "pilot_paths": 128,
+  "time_steps": 4, "scrambles": 4, "reference_points": 256,
+  "reference_scrambles": 4, "calibration_repeats": 4,
+  "calibration_dimensions": [1, 5], "calibration_grids": [4, 16],
+  "classical_dimensions": [1, 5], "threads": 1
+}
