@@ -12,6 +12,21 @@ Success means mathematical validity, correct sampling units, repeatable runs,
 comparable targets, complete cost reporting, and explicit failure disclosure.
 It does not mean that a neural method must win.
 
+## DGM-MC deployment contract
+
+The proposed DGM-MC method has two separable outputs. The DGM surface is an
+amortized batched surrogate; the martingale branch is a fresh-path estimator
+whose expectation is protected by predictability. A pilot-only selector in
+`dgm_mc/selection.py` estimates total cost to a requested standard error,
+charging training once over an expected query count. It compares plain MC,
+classical controls, neural controls and a combined control, and returns a
+classical fallback when the neural option is not cheaper. The selector is
+implemented and tested but has not been used to produce a new headline result.
+
+This separation prevents three invalid substitutions: a low surrogate error is
+not an MC confidence interval; a variance ratio is not an inference-time
+speedup; and a pointwise FBSDE result is not a full-surface comparison.
+
 ## Model and training
 
 - Log-price x=log(S/K); exact deterministic Hessian contraction at all dimensions.
