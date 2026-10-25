@@ -1,0 +1,18 @@
+{
+  "input_completion_sha256": "64f26d926030a7bc56728a86afaf65f64371977691150ae0f82118840b9e721c",
+  "report_source_sha256": "b5f838d794e8aabb9f7df6803da1fecb1b133ae89267cc117fda8e391172d153",
+  "input_manifest_sha256": "c39913c042d68709a9babf31bffee9f4b3320c97069f5cc9bf329c3fed9adfaf",
+  "outputs": {
+    "calibration.csv": "ea25ca5f34688e4c03d7ff90fdc543b68e15bf8f7dbd7be9a95fe12d15759dbe",
+    "calibration_table.tex": "401e40630ba6d6d40f82dc0fe7eb79c262da39efef372c945946e878aca7b7ee",
+    "cost_accuracy.pdf": "245d03e729a36835466d79f82ab85d3317c587e177c3eb99ff755cb03e06c43b",
+    "coverage.pdf": "ab0abdb417c65c59935efb7d15d70f6eb25c625d627bb2c1192ca6182782f8f6",
+    "direct.csv": "444de6f68affa0a06253181ceddec080f933c8aeb1f5fd3a861109efb889c9f8",
+    "direct_table.tex": "a334751454c04e71d9ccc45be2fd28fa74ab3060aa558d5e4ab3639cc3e40606",
+    "estimates.csv": "e1f40f706ae5ba4715bfffe068d0447df71fe1a174044a21fb0fefb697eab4d5",
+    "performance_table.tex": "ebebabd9f294374f6f909998a86ad4c2d8e4262a55a1dd9683ff717b91eab7ab",
+    "RESULTS.md": "87930a2d6faabe73d353e08f10eaa4d2f23682f35c3b66e36c8b367b4253736c",
+    "summary.csv": "f53d7dffb1adb3edbd435a139dbf1ecd9f4f9fa5c3266b96827598b0c85b407e",
+    "summary.json": "08fc2ddb9b1c75380edb72c2cdd1ed7961be312a99067022f69c29842712a9e4"
+  }
+}

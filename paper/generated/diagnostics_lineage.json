@@ -1,0 +1,9 @@
+{
+  "input_completion_sha256": "31684acbd4f50317149dbfcc18bea2b99d69f68d6aa40df24734f613fa53460f",
+  "report_source_sha256": "2ac08ffef403376bd58da19b3996ac4239b2d5774b91640df27bc874f88f2109",
+  "outputs": {
+    "greeks.pdf": "d19d65386e62b74167bc3c5caab978166e672b95476c5c952c1c110fa5a83855",
+    "greeks_table.tex": "8885e19dd8c9911f9a9650e4271a272fb675f8280e310909552e3b1df8845f76",
+    "learned_coverage_table.tex": "f3a8e643106c19c682a11f48398a84291e7792ba4e6345d49b0bd1e2fa34d6f7"
+  }
+}

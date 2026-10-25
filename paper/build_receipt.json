@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "engine": "MiKTeX-pdfTeX 4.23 (MiKTeX 25.12)",
+  "commands": [
+    [
+      "pdflatex.EXE",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-disable-installer",
+      "-disable-write18",
+      "main.tex"
+    ],
+    [
+      "bibtex.EXE",
+      "-disable-installer",
+      "main"
+    ],
+    [
+      "pdflatex.EXE",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-disable-installer",
+      "-disable-write18",
+      "main.tex"
+    ],
+    [
+      "pdflatex.EXE",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-disable-installer",
+      "-disable-write18",
+      "main.tex"
+    ]
+  ],
+  "source_sha256": "39eef821cae3acfc37402f07892303d35e761f18ce668548870ff009410ad6b6",
+  "bibliography_sha256": "6cee5507f0a8b37d8e8e9fa680bb351c30a201ed987a8e098dd8176314b2137f",
+  "pdf_sha256": "f5a43ef9efece5cf0d8c7576b26a9e010e7604ff4ba44de3d67698e22d173a2c",
+  "generated_sha256": {
+    "calibration_table.tex": "401e40630ba6d6d40f82dc0fe7eb79c262da39efef372c945946e878aca7b7ee",
+    "cost_accuracy.pdf": "d1ea21b2d10d4358bc707271b0175d61bbb9c45ce818e1656736a52b3ff8e494",
+    "coverage.pdf": "14124178040e08b45837adb24e4af31a2440ae7878902b44dce215599c977c57",
+    "diagnostics_lineage.json": "62e96774074d5a9258e4105f449814fc7f8e72bd5b5f5ccde46041d4151e01e9",
+    "direct_table.tex": "a334751454c04e71d9ccc45be2fd28fa74ab3060aa558d5e4ab3639cc3e40606",
+    "greeks.pdf": "d19d65386e62b74167bc3c5caab978166e672b95476c5c952c1c110fa5a83855",
+    "greeks_table.tex": "8885e19dd8c9911f9a9650e4271a272fb675f8280e310909552e3b1df8845f76",
+    "learned_coverage_table.tex": "f3a8e643106c19c682a11f48398a84291e7792ba4e6345d49b0bd1e2fa34d6f7",
+    "lineage.json": "bcd77f6224a86dd8535283ea0155da62725d4dbd2fcc85a21969f703e3749ef4",
+    "performance_table.tex": "ebebabd9f294374f6f909998a86ad4c2d8e4262a55a1dd9683ff717b91eab7ab"
+  }
+}
