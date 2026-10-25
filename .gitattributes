@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.pt -text
+*.pdf -text
+*.png -text
+# Preserve exact recorded bytes: these files are covered by SHA-256 manifests.
+results/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+audit/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+paper/generated/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+paper/build_receipt.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -19,8 +19,9 @@ It does not mean that a neural method must win.
 - No embedded kink, train/eval switch, artificial basket boundary, random trace,
   unsupported adaptive sampling, checkpoint fallback, or implicit resume.
 - CPU float64; seed before initialization; separate collocation generator.
-- Fresh 600-step models with width 32, depth 2, batch 64 in the declared CPU
-  study. Gaussian collocation std=0.3; uniform time. Fixed Adam LR=0.001.
+- Fresh 300-step models with width 32, depth 2, batch 64 in the completed-study
+  protocol `cpu_verified.json`. Gaussian collocation std=0.3; uniform time.
+  Fixed Adam LR=0.001. The larger 600-step protocol was interrupted and excluded.
 - Three initialization/training seeds (11,29,47); no test-based model selection.
 - Equal width is **not** equal parameter count or equal compute. Parameter counts
   and training times are recorded, and architecture comparisons are descriptive.
@@ -34,8 +35,8 @@ in the payoff; a coarse control grid affects variance, not expectation.
 
 An additional geometric terminal control has its exact analytical expectation
 subtracted. Pilot OLS fits either the neural coefficient alone or both controls,
-using 2048 independent pilot paths. An SVD handles collinearity. Evaluation uses
-2048 new paths. The fixed coefficient-one variant requires no pilot.
+using 1024 independent pilot paths. An SVD handles collinearity. Evaluation uses
+1024 new paths. The fixed coefficient-one variant requires no pilot.
 
 The pilot is fresh for each repeated evaluation. Conditional on training and
 pilot information the estimator is unbiased; model quality and pilot estimation
@@ -47,7 +48,7 @@ finite-pilot monotonic improvement from adding a control.
 - Plain terminal MC, antithetic MC, pilot-fitted geometric CV, and scrambled Sobol.
 - Neural coefficient one, neural pilot OLS, and combined geometric/neural OLS.
 - Baseline evaluation path count is equal, but work is not: terminal simulation
-  needs one increment while neural controls use 16 and gradient evaluations.
+  needs one increment while neural controls use 8 and gradient evaluations.
 - Report evaluation, pilot, and training costs separately. Do not infer speedup
   from standard-error ratios. Training amortization is an explicit deployment
   choice; the report shows both warm evaluation and cold-start costs.
@@ -56,7 +57,7 @@ finite-pilot monotonic improvement from adding a control.
   are a limited benchmark, not a full price-surface validation.
 - Learned models: d=1,5,10. Classical-only extension: d=25,50,100, **not neural
   scaling evidence**. All methods share the same target per scenario.
-- Twelve MC evaluation repetitions per scenario/model; three training seeds.
+- Eight MC evaluation repetitions per scenario/model; three training seeds.
   Repeated evaluations of one model are not independent training replications.
   Training-seed dispersion is reported separately; no pooled significance claim.
 

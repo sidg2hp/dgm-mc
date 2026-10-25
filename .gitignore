@@ -10,3 +10,6 @@ paper/*.bbl
 paper/*.blg
 paper/*.toc
 results/smoke/
+results/cpu_study/
+results/*.console.log
+results/**/records.partial.json

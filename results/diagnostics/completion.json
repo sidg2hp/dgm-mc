@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "seconds": 123.41972100001294,
+  "source_models": {
+    "dgm_d1_seed11.json": "9e5dbbd6f393e95efb1c79d32c5d52c9bcd3e93eb76b8a46668e554ee4b52eaa",
+    "dgm_d1_seed11.pt": "768ef0283efee72d3ea58a279c2ddec99f9a391993ac684dbb705e7608cab01c",
+    "dgm_d1_seed29.json": "af93ddd11423bb1c03bd380b29ee51761d446221d8cfefdfed5d9c491e07b3e2",
+    "dgm_d1_seed29.pt": "14a0c032aa864dadab04f739097b9f30da15640d3a35b15189f8d9cb3e209a04",
+    "dgm_d1_seed47.json": "c7d1cfd4c12e64d3e916130063de6a4cf3d9a6c57bab834ee68cdb188d143f34",
+    "dgm_d1_seed47.pt": "ac66280917068cbc8a61d78c53143825a70e5b5d0a322778c8247932ca679c2c",
+    "mlp_d1_seed11.json": "18f6d16e239e94a3a0ce9bddc405df26f43df63102552a90146edf782d9161b2",
+    "mlp_d1_seed11.pt": "95418d6c7d1d0b5a6b056f7865bd9fd3e7ff9a892d458e67410eb8564037b939",
+    "mlp_d1_seed29.json": "ae75f85d4d3b628e0421c1830fbc6f6b51e4649b5a3da2c7f34a765438caf534",
+    "mlp_d1_seed29.pt": "5da70626918ed1905f88e319a86a76a3e5b539e4f1a337b35e34445924152d0f",
+    "mlp_d1_seed47.json": "88681a969853dd7032dd69d6c5172393314a5fa538128d66a1da479edaf8e0c3",
+    "mlp_d1_seed47.pt": "0ebfde1bad06b77ccbd4772f5b13c25ffb55542b605aad12443f20e2e31c7894"
+  },
+  "artifact_sha256": {
+    "greeks_raw.csv": "64bfca4458092cf2929350a540f6113a45ffb90fea6e1d451c8c94ad1a6da49e",
+    "greeks_raw.json": "0bba5f33fe85f4ffd971ae1ab35d1c25417d97fd3b8c4a285d5328f5f3bf5c22",
+    "greeks_summary.csv": "c119479d8560820f9be3352d70a811ec4afed456f3b246b26190e02cc3a340fa",
+    "greeks_summary.json": "e52056ed6a8b8f009f7c26540e4ae0d3efe3f9809bedc236a3644adac6fb4862",
+    "learned_coverage_raw.csv": "1ea48ede5f1a222e916b0cb5340f2f21c955de40d6820d7fad7766bf7a27ac3c",
+    "learned_coverage_raw.json": "07cde0d2bc96d62e42bf9ece1829dc240495a017193674c18854242b9ff3229e",
+    "learned_coverage_summary.csv": "f098f765210c6be9a93886fded6dd9783dba2e9b02d69798c02944f07c0b8b55",
+    "learned_coverage_summary.json": "640d5e4464e531996bc46af3f2a141fea62b27840ee5d41978a303b3f00f331a",
+    "manifest.json": "af775b6e4357067087c7af880518aa7213b45b745dc91c4cee59de357b01e285"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-25T19:54:10.544004+00:00",
+  "config": {
+    "repeats": 80,
+    "paths": 1024,
+    "steps": 8,
+    "spots": 101,
+    "times": [
+      0.0,
+      0.5,
+      0.9
+    ]
+  },
+  "command": "python -m dgm_mc.diagnostics",
+  "source_sha256": {
+    "dgm_mc/__init__.py": "493b91f603dc2698748966a8ea3cd3e5f14f0930db12e63a9ccacbec8490cf25",
+    "dgm_mc/audit.py": "3d19f5eaca5ba95cd5e54900b3bdd41efffad3ba745247e7e1acf012f43d0977",
+    "dgm_mc/benchmark.py": "758db319a612dd1a233bde03c3591f6f521b8586917485bdbc41517321194b46",
+    "dgm_mc/checkpoint.py": "4b97ed7d8967eca04b7cc887fdb9b3dd5013fd8c33887645e14b221d73bdb020",
+    "dgm_mc/diagnostics.py": "354d516e9293642523363d9ff78724d630d9a88d8d6ff170210bcaf82ea8f670",
+    "dgm_mc/estimators.py": "3892968ed7a69fe4b2a14c49254061059bddd288baef8ceb0aa427b606c543e1",
+    "dgm_mc/market.py": "556aea980c3bd00d4db57245608913f6087e722973cb8b060b9856d978db6ad9",
+    "dgm_mc/neural.py": "09be19607e4c959fcbd21608beb889c5eb94b007062342df31a14a3e67e5ecaf",
+    "dgm_mc/provenance.py": "dbfd3ec281966cf8ab82751d7e314fb754b282afeda2396a2e4b67ab94722cee",
+    "dgm_mc/report.py": "7c6cad900007fe41c2e5d40ae455789cbad5bb9e5ac0da6c8919255f59014bed",
+    "configs/cpu_study.json": "4be3a0585eea3dda8b8cc532e4cb0a24164277ab1c5004b9ef10480f0b00ee8f",
+    "configs/cpu_verified.json": "10015d4b047f66f63e0af7220c058cf982dd2386fb8f1bb4d1ea37164e1cf76c",
+    "configs/smoke.json": "1c6d39ea67a8958b7d4a1143abcd3304e4c9f42580bd128349f9d8bf5b9de6a2"
+  },
+  "git_revision": "0213c83b3e42093db84f81d2676da36af07d9d7b",
+  "environment": {
+    "python": "3.10.8",
+    "platform": "Windows",
+    "machine": "AMD64",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.12.0+cpu",
+    "torch_threads": 1,
+    "device": "cpu",
+    "dtype": "float64"
+  }
+}

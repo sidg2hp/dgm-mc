@@ -1,0 +1,10 @@
+{
+  "dimensions": [1, 5, 10], "training_seeds": [11, 29, 47], "architectures": ["dgm", "mlp"],
+  "training": {"steps": 300, "width": 32, "depth": 2, "batch": 64,
+    "learning_rate": 0.001, "terminal_weight": 10.0, "collocation_std": 0.3},
+  "moneyness": [0.85, 1.0, 1.15], "repeats": 8, "paths": 1024, "pilot_paths": 1024,
+  "time_steps": 8, "scrambles": 8, "reference_points": 32768,
+  "reference_scrambles": 16, "calibration_repeats": 40,
+  "calibration_dimensions": [1, 5, 10], "calibration_grids": [4, 16, 64],
+  "classical_dimensions": [1, 5, 10, 25, 50, 100], "threads": 1
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "model": "dgm_d1_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 1,
+    "scenario": "d1_m0.85",
+    "price": 0.03509906789989414,
+    "reference_price": 0.032135985531478756,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 1,
+    "scenario": "d1_m1",
+    "price": 0.10762655372251556,
+    "reference_price": 0.10450583572185577,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 1,
+    "scenario": "d1_m1.15",
+    "price": 0.2147210405365468,
+    "reference_price": 0.21790512528031128,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 1,
+    "scenario": "d1_m0.85",
+    "price": 0.0367572646942991,
+    "reference_price": 0.032135985531478756,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 1,
+    "scenario": "d1_m1",
+    "price": 0.10530818388630288,
+    "reference_price": 0.10450583572185577,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 1,
+    "scenario": "d1_m1.15",
+    "price": 0.2122860277911498,
+    "reference_price": 0.21790512528031128,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 1,
+    "scenario": "d1_m0.85",
+    "price": 0.03075786479672206,
+    "reference_price": 0.032135985531478756,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 1,
+    "scenario": "d1_m1",
+    "price": 0.10622460449687839,
+    "reference_price": 0.10450583572185577,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d1_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 1,
+    "scenario": "d1_m1.15",
+    "price": 0.21771206702149112,
+    "reference_price": 0.21790512528031128,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 1,
+    "scenario": "d1_m0.85",
+    "price": 0.0001087978177605857,
+    "reference_price": 0.032135985531478756,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 1,
+    "scenario": "d1_m1",
+    "price": 0.10529810816187182,
+    "reference_price": 0.10450583572185577,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 1,
+    "scenario": "d1_m1.15",
+    "price": 0.25324965603737754,
+    "reference_price": 0.21790512528031128,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 1,
+    "scenario": "d1_m0.85",
+    "price": 0.019406087937735204,
+    "reference_price": 0.032135985531478756,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 1,
+    "scenario": "d1_m1",
+    "price": 0.10309286082621072,
+    "reference_price": 0.10450583572185577,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 1,
+    "scenario": "d1_m1.15",
+    "price": 0.23687298949673327,
+    "reference_price": 0.21790512528031128,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 1,
+    "scenario": "d1_m0.85",
+    "price": 0.02754992045890351,
+    "reference_price": 0.032135985531478756,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 1,
+    "scenario": "d1_m1",
+    "price": 0.10618687560817844,
+    "reference_price": 0.10450583572185577,
+    "reference_se": 0.0
+  },
+  {
+    "model": "mlp_d1_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 1,
+    "scenario": "d1_m1.15",
+    "price": 0.23291964823885783,
+    "reference_price": 0.21790512528031128,
+    "reference_se": 0.0
+  },
+  {
+    "model": "dgm_d5_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 5,
+    "scenario": "d5_m0.85",
+    "price": 0.020871472999016302,
+    "reference_price": 0.0139246977900888,
+    "reference_se": 5.152178670220735e-07
+  },
+  {
+    "model": "dgm_d5_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 5,
+    "scenario": "d5_m1",
+    "price": 0.08335989337242694,
+    "reference_price": 0.08217114954830115,
+    "reference_se": 5.33533398780735e-07
+  },
+  {
+    "model": "dgm_d5_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 5,
+    "scenario": "d5_m1.15",
+    "price": 0.20205477026696925,
+    "reference_price": 0.2074475489165209,
+    "reference_se": 5.569032591909197e-07
+  },
+  {
+    "model": "dgm_d5_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 5,
+    "scenario": "d5_m0.85",
+    "price": 0.01948920948849058,
+    "reference_price": 0.0139246977900888,
+    "reference_se": 5.152178670220735e-07
+  },
+  {
+    "model": "dgm_d5_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 5,
+    "scenario": "d5_m1",
+    "price": 0.08500776388184238,
+    "reference_price": 0.08217114954830115,
+    "reference_se": 5.33533398780735e-07
+  },
+  {
+    "model": "dgm_d5_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 5,
+    "scenario": "d5_m1.15",
+    "price": 0.20274521535480403,
+    "reference_price": 0.2074475489165209,
+    "reference_se": 5.569032591909197e-07
+  },
+  {
+    "model": "dgm_d5_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 5,
+    "scenario": "d5_m0.85",
+    "price": 0.009775176168458537,
+    "reference_price": 0.0139246977900888,
+    "reference_se": 5.152178670220735e-07
+  },
+  {
+    "model": "dgm_d5_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 5,
+    "scenario": "d5_m1",
+    "price": 0.07635551870893384,
+    "reference_price": 0.08217114954830115,
+    "reference_se": 5.33533398780735e-07
+  },
+  {
+    "model": "dgm_d5_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 5,
+    "scenario": "d5_m1.15",
+    "price": 0.197842901732115,
+    "reference_price": 0.2074475489165209,
+    "reference_se": 5.569032591909197e-07
+  },
+  {
+    "model": "mlp_d5_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 5,
+    "scenario": "d5_m0.85",
+    "price": 0.010592050211246606,
+    "reference_price": 0.0139246977900888,
+    "reference_se": 5.152178670220735e-07
+  },
+  {
+    "model": "mlp_d5_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 5,
+    "scenario": "d5_m1",
+    "price": 0.10203988696713581,
+    "reference_price": 0.08217114954830115,
+    "reference_se": 5.33533398780735e-07
+  },
+  {
+    "model": "mlp_d5_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 5,
+    "scenario": "d5_m1.15",
+    "price": 0.2190183046606695,
+    "reference_price": 0.2074475489165209,
+    "reference_se": 5.569032591909197e-07
+  },
+  {
+    "model": "mlp_d5_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 5,
+    "scenario": "d5_m0.85",
+    "price": -0.002100901062728748,
+    "reference_price": 0.0139246977900888,
+    "reference_se": 5.152178670220735e-07
+  },
+  {
+    "model": "mlp_d5_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 5,
+    "scenario": "d5_m1",
+    "price": 0.11310992344355461,
+    "reference_price": 0.08217114954830115,
+    "reference_se": 5.33533398780735e-07
+  },
+  {
+    "model": "mlp_d5_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 5,
+    "scenario": "d5_m1.15",
+    "price": 0.2179984513791876,
+    "reference_price": 0.2074475489165209,
+    "reference_se": 5.569032591909197e-07
+  },
+  {
+    "model": "mlp_d5_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 5,
+    "scenario": "d5_m0.85",
+    "price": -0.018014903024586183,
+    "reference_price": 0.0139246977900888,
+    "reference_se": 5.152178670220735e-07
+  },
+  {
+    "model": "mlp_d5_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 5,
+    "scenario": "d5_m1",
+    "price": 0.10560017357999259,
+    "reference_price": 0.08217114954830115,
+    "reference_se": 5.33533398780735e-07
+  },
+  {
+    "model": "mlp_d5_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 5,
+    "scenario": "d5_m1.15",
+    "price": 0.23259318944379667,
+    "reference_price": 0.2074475489165209,
+    "reference_se": 5.569032591909197e-07
+  },
+  {
+    "model": "dgm_d10_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 10,
+    "scenario": "d10_m0.85",
+    "price": 0.04065382898197969,
+    "reference_price": 0.011025967737890404,
+    "reference_se": 5.920242278016788e-07
+  },
+  {
+    "model": "dgm_d10_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 10,
+    "scenario": "d10_m1",
+    "price": 0.09157602857538757,
+    "reference_price": 0.07772955107397972,
+    "reference_se": 5.309293401986093e-07
+  },
+  {
+    "model": "dgm_d10_seed11",
+    "architecture": "dgm",
+    "training_seed": 11,
+    "d": 10,
+    "scenario": "d10_m1.15",
+    "price": 0.2223239269285223,
+    "reference_price": 0.20524165822331153,
+    "reference_se": 5.2903970166632e-07
+  },
+  {
+    "model": "dgm_d10_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 10,
+    "scenario": "d10_m0.85",
+    "price": 0.017706602117860078,
+    "reference_price": 0.011025967737890404,
+    "reference_se": 5.920242278016788e-07
+  },
+  {
+    "model": "dgm_d10_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 10,
+    "scenario": "d10_m1",
+    "price": 0.07269504977227334,
+    "reference_price": 0.07772955107397972,
+    "reference_se": 5.309293401986093e-07
+  },
+  {
+    "model": "dgm_d10_seed29",
+    "architecture": "dgm",
+    "training_seed": 29,
+    "d": 10,
+    "scenario": "d10_m1.15",
+    "price": 0.1853655041907542,
+    "reference_price": 0.20524165822331153,
+    "reference_se": 5.2903970166632e-07
+  },
+  {
+    "model": "dgm_d10_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 10,
+    "scenario": "d10_m0.85",
+    "price": 0.012892338227925775,
+    "reference_price": 0.011025967737890404,
+    "reference_se": 5.920242278016788e-07
+  },
+  {
+    "model": "dgm_d10_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 10,
+    "scenario": "d10_m1",
+    "price": 0.07949289207113681,
+    "reference_price": 0.07772955107397972,
+    "reference_se": 5.309293401986093e-07
+  },
+  {
+    "model": "dgm_d10_seed47",
+    "architecture": "dgm",
+    "training_seed": 47,
+    "d": 10,
+    "scenario": "d10_m1.15",
+    "price": 0.19091599953532654,
+    "reference_price": 0.20524165822331153,
+    "reference_se": 5.2903970166632e-07
+  },
+  {
+    "model": "mlp_d10_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 10,
+    "scenario": "d10_m0.85",
+    "price": -0.025410101349341227,
+    "reference_price": 0.011025967737890404,
+    "reference_se": 5.920242278016788e-07
+  },
+  {
+    "model": "mlp_d10_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 10,
+    "scenario": "d10_m1",
+    "price": 0.10412882846978853,
+    "reference_price": 0.07772955107397972,
+    "reference_se": 5.309293401986093e-07
+  },
+  {
+    "model": "mlp_d10_seed11",
+    "architecture": "mlp",
+    "training_seed": 11,
+    "d": 10,
+    "scenario": "d10_m1.15",
+    "price": 0.2266145797095756,
+    "reference_price": 0.20524165822331153,
+    "reference_se": 5.2903970166632e-07
+  },
+  {
+    "model": "mlp_d10_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 10,
+    "scenario": "d10_m0.85",
+    "price": -0.0209145580834896,
+    "reference_price": 0.011025967737890404,
+    "reference_se": 5.920242278016788e-07
+  },
+  {
+    "model": "mlp_d10_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 10,
+    "scenario": "d10_m1",
+    "price": 0.09838139520522772,
+    "reference_price": 0.07772955107397972,
+    "reference_se": 5.309293401986093e-07
+  },
+  {
+    "model": "mlp_d10_seed29",
+    "architecture": "mlp",
+    "training_seed": 29,
+    "d": 10,
+    "scenario": "d10_m1.15",
+    "price": 0.2281223465153877,
+    "reference_price": 0.20524165822331153,
+    "reference_se": 5.2903970166632e-07
+  },
+  {
+    "model": "mlp_d10_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 10,
+    "scenario": "d10_m0.85",
+    "price": -0.03171159988436316,
+    "reference_price": 0.011025967737890404,
+    "reference_se": 5.920242278016788e-07
+  },
+  {
+    "model": "mlp_d10_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 10,
+    "scenario": "d10_m1",
+    "price": 0.09598087905706132,
+    "reference_price": 0.07772955107397972,
+    "reference_se": 5.309293401986093e-07
+  },
+  {
+    "model": "mlp_d10_seed47",
+    "architecture": "mlp",
+    "training_seed": 47,
+    "d": 10,
+    "scenario": "d10_m1.15",
+    "price": 0.2162368158367922,
+    "reference_price": 0.20524165822331153,
+    "reference_se": 5.2903970166632e-07
+  }
+]
