@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "label": "reported_in_remote_option_pricing_DGM_not_verified",
+  "source_repository": "https://github.com/sidg2hp/option-pricing-DGM",
+  "source_commit": "a2ef13292e9975f3c1c60c1f35f737260903dbc7",
+  "source_date": "2026-06-11T17:45:32+05:30",
+  "source_files": ["README.md", "paper/paper.tex"],
+  "rows": [
+    {"d": 7, "scaling_relative_l2_pct": 13.14, "comparison_mre_pct": 6.74, "reported_hybrid_se_reduction": 710.0, "reported_hybrid_variance_reduction_pct": 99.9998},
+    {"d": 10, "scaling_relative_l2_pct": 28.47, "comparison_mre_pct": 5.65, "reported_hybrid_se_reduction": 499.0, "reported_hybrid_variance_reduction_pct": 99.9996},
+    {"d": 25, "scaling_relative_l2_pct": 3.55, "comparison_mre_pct": 3.55, "reported_hybrid_se_reduction": 4.9, "reported_hybrid_variance_reduction_pct": 95.9},
+    {"d": 50, "scaling_relative_l2_pct": 70.76, "comparison_mre_pct": 5.56, "reported_hybrid_se_reduction": 4.8, "reported_hybrid_variance_reduction_pct": 95.7},
+    {"d": 100, "scaling_relative_l2_pct": 60.69, "comparison_mre_pct": 60.69, "reported_hybrid_se_reduction": 5.1, "reported_hybrid_variance_reduction_pct": 96.2}
+  ],
+  "status": "Quarantined legacy report. These rows are reproduced for transparency, not used as verified evidence or pooled with the new study. No values were invented or statistically imputed."
+}
