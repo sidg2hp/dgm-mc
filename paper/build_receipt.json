@@ -32,9 +32,9 @@
       "main.tex"
     ]
   ],
-  "source_sha256": "7ff49406ec873a01a00536c66621e1563a907511094616bbe815c6c25136dfcd",
+  "source_sha256": "786f285df3ef97a789b8767abf9cd3ab921d48ae5e78b1f7be74248d2bcb4877",
   "bibliography_sha256": "6cee5507f0a8b37d8e8e9fa680bb351c30a201ed987a8e098dd8176314b2137f",
-  "pdf_sha256": "0ef044d5d8653a7083ea002dc6f9d8b0e2ec48a2f3c3030524039e8833e7783f",
+  "pdf_sha256": "03dc7699eba14979b52e2f67b182a95ca463d110829a9e63a7587284135f4a68",
   "generated_sha256": {
     "calibration_table.tex": "401e40630ba6d6d40f82dc0fe7eb79c262da39efef372c945946e878aca7b7ee",
     "cost_accuracy.pdf": "d1ea21b2d10d4358bc707271b0175d61bbb9c45ce818e1656736a52b3ff8e494",
@@ -44,6 +44,7 @@
     "greeks.pdf": "d19d65386e62b74167bc3c5caab978166e672b95476c5c952c1c110fa5a83855",
     "greeks_table.tex": "8885e19dd8c9911f9a9650e4271a272fb675f8280e310909552e3b1df8845f76",
     "learned_coverage_table.tex": "f3a8e643106c19c682a11f48398a84291e7792ba4e6345d49b0bd1e2fa34d6f7",
+    "legacy_high_dim_table.tex": "62ee1c15f90e73c0769acde2f2bf06078b8ddbcbaf48bc5317f93f60c0761f9d",
     "lineage.json": "bcd77f6224a86dd8535283ea0155da62725d4dbd2fcc85a21969f703e3749ef4",
     "performance_table.tex": "ebebabd9f294374f6f909998a86ad4c2d8e4262a55a1dd9683ff717b91eab7ab"
   }

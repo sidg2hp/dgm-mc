@@ -16,6 +16,7 @@ All commands below were executed in the isolated new project on 2026-10-26
 | `python -B -m dgm_mc.verify` | Main records, all checkpoints, diagnostics, reports and paper hashes verified |
 | `python -B -m dgm_mc.audit --legacy-parent .. --verify` | 299 original research source/result files unchanged |
 | Public `option-pricing-DGM` audit | Hybrid path, invalid terminal CV, path cap, ATM-only FBSDE, and extrapolated timing claims reviewed; see `docs/OPTION_PRICING_DGM_AUDIT.md` |
+| Legacy high-dimensional inclusion | d=7/10/25/50/100 rows transcribed from the public README/paper into `audit/legacy_high_dim_reported.json`; explicitly quarantined from verified results |
 | Pricing CLI with five heterogeneous spots | Executed successfully with restricted checkpoint loading and independent pilot |
 
 The earlier larger run timed out and is excluded, as documented in `RUN_LOG.md`.

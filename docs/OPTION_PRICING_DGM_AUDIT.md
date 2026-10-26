@@ -44,3 +44,7 @@ The remote repo is a promising prototype of a DGM-MC **direction**, not evidence
 that DGM-MC is already better than MC or FBSDE. The new `dgm_mc` package keeps the
 useful direction, removes the invalid terminal control, adds the cost-aware
 selection contract, and states the exact evidence needed for a stronger claim.
+
+The legacy d=7--100 values are preserved in `docs/LEGACY_RESULTS.md` and
+`audit/legacy_high_dim_reported.json`. They are included for completeness and
+source attribution, not promoted to verified results.

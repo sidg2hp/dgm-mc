@@ -39,6 +39,7 @@ specified explicitly.
 | Protocol and publication gaps | `docs/PROTOCOL.md`, `docs/SUBMISSION_READINESS.md` |
 | DGM-MC claim set and deployment design | `docs/DGM_MC_POSITIONING.md` |
 | Remote prototype audit | `docs/OPTION_PRICING_DGM_AUDIT.md` |
+| Legacy d=7--100 reported values | `docs/LEGACY_RESULTS.md`, `audit/legacy_high_dim_reported.json` |
 
 **Actually executed:** 18 fresh models (DGM/MLP, d=1/5/10, three seeds), 1,872
 pricing estimates, 840 oracle-calibration estimates, 960 learned-control coverage

@@ -252,7 +252,8 @@ $S_{0,i}=m_0\exp(\operatorname{linspace}(-0.12,0.12,d)_i)$.
 These heterogeneous vectors avoid the equal-asset diagonal, but are not a
 full-dimensional test distribution. Plain MC, antithetic MC, geometric control
 and RQMC additionally run at dimensions 25, 50 and 100. Those extra dimensions
-provide classical context only.
+provide classical context only. No new verified neural run beyond $d=10$ is
+included in the main study.
 
 Each estimate uses 1024 evaluation paths; fitted controls use another 1024
 independent pilot paths. Neural controls use eight time steps. RQMC uses eight
@@ -341,6 +342,40 @@ fitting. The one-dimensional roundoff-limited controls are plotted at a
 $10^{-14}$ visualization floor. This is not a matched-time budget sweep.}
 \label{fig:cost}
 \end{figure}
+
+\subsection{Legacy high-dimensional reports}
+\label{sec:legacy-highdim}
+The public prototype that motivated this reconstruction reports additional DGM
+rows through $d=100$. We include them here so that the dimensional record is not
+silently omitted, but they are explicitly quarantined from the verified main
+study. The table is transcribed from the remote repository at commit
+\texttt{a2ef13292e9975f3c1c60c1f35f737260903dbc7}. ``Scaling relative $L^2$'' and
+``comparison MRE'' (mean relative error) are different reported metrics and must
+not be compared as if they were the same quantity. The reported hybrid columns
+are legacy aggregate claims, not independently rerun results under the corrected
+estimator.
+
+\begin{table}[ht]
+\centering\small
+\input{generated/legacy_high_dim_table.tex}
+\caption{High-dimensional values reported by the public prototype. These rows
+are included for completeness and provenance, not as verified evidence. No
+values were fabricated or statistically imputed. The d=10 discrepancy between
+the two reported error columns illustrates why the rows are not pooled with the
+new study.}
+\label{tab:legacy-highdim}
+\end{table}
+
+The remote prototype's d=10 scaling error is 28.47\%, while its separate
+five-state comparison reports 5.65\%; d=50 similarly reports 70.76\% versus
+5.56\%. This is a provenance and metric-definition conflict. The remote hybrid
+runner also caps actual control-variate paths at 50,000 while recording a
+requested 100,000. Its FBSDE wrapper is ATM-only and returns no valid off-ATM
+predictions. Accordingly, the legacy table preserves what was reported while
+the main conclusions use only newly measured, hash-verified records. A
+submission claiming verified d=100 neural performance must rerun those
+dimensions with an immutable manifest, independent held-out references, actual
+path counts, multiple seeds, and a corrected estimator.
 
 \subsection{Analytical calibration and inaccurate controls}
 Table~\ref{tab:calibration} separates control-grid effects from neural training.
@@ -431,8 +466,10 @@ classical and neural variance-reduction baselines, not just plain MC.
 \paragraph{Finite-budget scope.}
 Three hundred training steps are insufficient to establish convergence. There
 are only three training seeds and three arithmetic-basket evaluation vectors
-per dimension. There is no neural scaling experiment beyond $d=10$; the
-$d=25,50,100$ results are classical-only. The main pricing model has fixed
+per dimension. There is no verified neural scaling experiment beyond $d=10$;
+legacy reported $d=7,10,25,50,100$ rows are preserved in
+Table~\ref{tab:legacy-highdim} but are not validated main evidence. The main
+pricing model has fixed
 coefficients and a single payoff family. Market calibration, stochastic
 volatility, jumps, early exercise and out-of-distribution robustness remain
 unexamined. The analytical extension tests Greeks, but does not establish
